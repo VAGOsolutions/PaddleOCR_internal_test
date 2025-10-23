@@ -30,9 +30,8 @@ def test_multilingual_ocr(image_path, language='en', output_dir="test_results/mu
         # Initialize PaddleOCR with specified language
         print(f"\nInitializing PaddleOCR for {language}...")
         ocr = PaddleOCR(
-            use_angle_cls=True,
-            lang=language,
-            show_log=False
+            use_textline_orientation=True,
+            lang=language
         )
         
         if not os.path.exists(image_path):

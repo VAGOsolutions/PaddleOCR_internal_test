@@ -33,9 +33,8 @@ def test_basic_ocr(image_path, output_dir="test_results"):
         # Initialize PaddleOCR
         print("\nInitializing PaddleOCR...")
         ocr = PaddleOCR(
-            use_angle_cls=True,
-            lang='en',
-            show_log=False
+            use_textline_orientation=True,
+            lang='en'
         )
         
         # Check if image exists

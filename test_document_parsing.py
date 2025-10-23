@@ -32,7 +32,6 @@ def test_document_parsing(image_path, output_dir="test_results/document_parsing"
         print("This may take a few moments on first run (downloading models)...")
         
         structure = PPStructure(
-            show_log=False,
             use_gpu=False,
             lang='en'
         )
@@ -147,7 +146,6 @@ def test_table_recognition(image_path, output_dir="test_results/table_recognitio
         print("\nInitializing Table Recognition...")
         structure = PPStructure(
             table=True,
-            show_log=False,
             use_gpu=False
         )
         
