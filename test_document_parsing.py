@@ -17,7 +17,7 @@ def test_document_parsing(image_path, output_dir="test_results/document_parsing"
         output_dir: Directory to save results
     """
     try:
-        from paddleocr import PPStructure
+        from paddleocr import PaddleX
         from PIL import Image
         
         print("\n" + "="*60)

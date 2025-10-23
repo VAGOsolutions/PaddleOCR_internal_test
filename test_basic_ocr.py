@@ -46,59 +46,85 @@ def test_basic_ocr(image_path, output_dir="test_results"):
         print(f"✓ Processing image: {image_path}")
         
         # Perform OCR
-        result = ocr.ocr(image_path, cls=True)
+        result = ocr.predict(image_path)
         
         # Process results
         if result and result[0]:
-            print(f"✓ Found {len(result[0])} text regions\n")
+            ocr_result = result[0]
+            
+            # Extract texts and scores from OCRResult object
+            texts = ocr_result.get('rec_texts', [])
+            scores = ocr_result.get('rec_scores', [])
+            boxes = ocr_result.get('rec_polys', [])
+            
+            print(f"✓ Found {len(texts)} text regions\n")
             
             # Save results to JSON
             output_data = {
                 "timestamp": datetime.now().isoformat(),
                 "image_path": str(image_path),
-                "total_regions": len(result[0]),
+                "total_regions": len(texts),
                 "results": []
             }
             
             print("Detected Text:")
             print("-" * 60)
-            for idx, line in enumerate(result[0], 1):
-                box = line[0]
-                text = line[1][0]
-                confidence = line[1][1]
+            for idx, (text, score) in enumerate(zip(texts, scores), 1):
+                box = boxes[idx-1] if idx-1 < len(boxes) else []
                 
                 print(f"{idx}. Text: '{text}'")
-                print(f"   Confidence: {confidence:.4f}")
-                print(f"   Box: {box}\n")
+                print(f"   Confidence: {score:.4f}")
+                if hasattr(box, 'tolist'):
+                    box_list = box.tolist()
+                else:
+                    box_list = box
+                print(f"   Box: {box_list[:4] if len(str(box_list)) > 100 else box_list}\n")
                 
                 output_data["results"].append({
                     "index": idx,
                     "text": text,
-                    "confidence": float(confidence),
-                    "box": box
+                    "confidence": float(score),
+                    "box": box_list if hasattr(box, 'tolist') else (list(box) if isinstance(box, (list, tuple)) else str(box))
                 })
             
-            # Save results
-            result_file = os.path.join(output_dir, "basic_ocr_results.json")
-            with open(result_file, 'w', encoding='utf-8') as f:
-                json.dump(output_data, f, indent=2, ensure_ascii=False)
-            print(f"✓ Results saved to: {result_file}")
+            # Save results in multiple formats
+            input_basename = os.path.basename(image_path)
+            name_without_ext = os.path.splitext(input_basename)[0]
             
-            # Create visualization
+            print("\n" + "="*60)
+            print("Saving Results")
+            print("="*60)
+            
+            # 1. Save JSON file (structured data with coordinates and confidence)
+            json_file = os.path.join(output_dir, f"{name_without_ext}.json")
+            with open(json_file, 'w', encoding='utf-8') as f:
+                json.dump(output_data, f, indent=2, ensure_ascii=False)
+            print(f"✓ JSON saved to: {json_file}")
+            
+            # 2. Save plain text file (extracted text only)
+            txt_file = os.path.join(output_dir, f"{name_without_ext}.txt")
+            with open(txt_file, 'w', encoding='utf-8') as f:
+                f.write(f"OCR Results for: {image_path}\n")
+                f.write(f"Timestamp: {datetime.now().isoformat()}\n")
+                f.write(f"Total text regions: {len(texts)}\n")
+                f.write("="*60 + "\n\n")
+                
+                # Write all extracted text
+                for idx, (text, score) in enumerate(zip(texts, scores), 1):
+                    f.write(f"{idx}. {text}\n")
+                
+                f.write("\n" + "="*60 + "\n")
+                f.write("Detailed Results with Confidence Scores:\n")
+                f.write("="*60 + "\n\n")
+                
+                for idx, (text, score) in enumerate(zip(texts, scores), 1):
+                    f.write(f"{idx:3d}. {text:50s} (confidence: {score:.4f})\n")
+            print(f"✓ Text saved to: {txt_file}")
+            
+            # 3. Save visualization image (with bounding boxes)
             try:
-                from paddleocr import draw_ocr
-                
-                image = Image.open(image_path).convert('RGB')
-                boxes = [line[0] for line in result[0]]
-                texts = [line[1][0] for line in result[0]]
-                scores = [line[1][1] for line in result[0]]
-                
-                # Draw boxes
-                im_show = draw_ocr(image, boxes, texts, scores)
-                im_show = Image.fromarray(im_show)
-                
-                viz_file = os.path.join(output_dir, "basic_ocr_visualization.jpg")
-                im_show.save(viz_file)
+                viz_file = os.path.join(output_dir, f"{name_without_ext}_annotated.jpg")
+                ocr_result.save_to_img(viz_file)
                 print(f"✓ Visualization saved to: {viz_file}")
             except Exception as e:
                 print(f"⚠ Could not create visualization: {e}")

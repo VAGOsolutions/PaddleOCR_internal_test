@@ -41,7 +41,7 @@ def test_multilingual_ocr(image_path, language='en', output_dir="test_results/mu
         print(f"✓ Processing image: {image_path}")
         
         # Perform OCR
-        result = ocr.ocr(image_path, cls=True)
+        result = ocr.predict(image_path)
         
         # Process results
         if result and result[0]:
@@ -59,8 +59,21 @@ def test_multilingual_ocr(image_path, language='en', output_dir="test_results/mu
             print("Detected Text:")
             print("-" * 60)
             for idx, line in enumerate(result[0], 1):
-                text = line[1][0]
-                confidence = line[1][1]
+                # Handle different result formats
+                if isinstance(line, dict):
+                    text = line.get('text', '')
+                    confidence = line.get('score', 0.0)
+                    box = line.get('bbox', [])
+                elif isinstance(line, (list, tuple)) and len(line) >= 2:
+                    box = line[0]
+                    if isinstance(line[1], (list, tuple)) and len(line[1]) >= 2:
+                        text = line[1][0]
+                        confidence = line[1][1]
+                    else:
+                        text = str(line[1])
+                        confidence = 0.0
+                else:
+                    continue
                 
                 print(f"{idx}. {text} (confidence: {confidence:.4f})")
                 
@@ -68,7 +81,7 @@ def test_multilingual_ocr(image_path, language='en', output_dir="test_results/mu
                     "index": idx,
                     "text": text,
                     "confidence": float(confidence),
-                    "box": line[0]
+                    "box": box if isinstance(box, list) else []
                 })
             
             # Save results
