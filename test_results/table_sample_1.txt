@@ -1,0 +1,152 @@
+OCR Results for: test_documents/tables\table_sample_1.jpg
+Timestamp: 2025-10-23T22:01:14.333284
+Total text regions: 71
+============================================================
+
+1. SegLink [26]
+2. 70.0
+3. 86.0
+4. 77.0
+5. 5'8
+6. PixelLink [4]
+7. 73.2
+8. 83.0
+9. 77.8
+10. TextSnake [18]
+11. 73.9
+12. 83.2
+13. 78.3
+14. 1.1
+15. TextField [37]
+16. 75.9
+17. 87.4
+18. 81.3
+19. 5.2
+20. MSR[38]
+21. 76.7
+22. 87.4
+23. 81.7
+24. -
+25. FTSN [3]
+26. 77.1
+27. 87.6
+28. 82.0
+29. -
+30. LSE[30]
+31. 81.7
+32. 84.2
+33. 82.9
+34. CRAFT [2]
+35. 78.2
+36. 88.2
+37. 82.9
+38. 8.6
+39. MCN [16]
+40. 79
+41. 88
+42. 83
+43. ATRR[35]
+44. -
+45. 82.1
+46. 85.2
+47. 83.6
+48. PAN [34]
+49. 83.8
+50. 84.4
+51. 84.1
+52. 30.2
+53. DB[12]
+54. 79.2
+55. 91.5
+56. 84.9
+57. 32.0
+58. DRRG [41]
+59. 82.30
+60. 88.05
+61. 85.08
+62. Ours (SynText)
+63. 80.68
+64. 85.40
+65. 82.97
+66. 12.68
+67. rs (MLT-17)
+68. 84.54
+69. 86.62
+70. 85.57
+71. 12.31
+
+============================================================
+Detailed Results with Confidence Scores:
+============================================================
+
+  1. SegLink [26]                                       (confidence: 0.9684)
+  2. 70.0                                               (confidence: 1.0000)
+  3. 86.0                                               (confidence: 1.0000)
+  4. 77.0                                               (confidence: 1.0000)
+  5. 5'8                                                (confidence: 0.8745)
+  6. PixelLink [4]                                      (confidence: 0.9770)
+  7. 73.2                                               (confidence: 1.0000)
+  8. 83.0                                               (confidence: 1.0000)
+  9. 77.8                                               (confidence: 0.9999)
+ 10. TextSnake [18]                                     (confidence: 0.9947)
+ 11. 73.9                                               (confidence: 1.0000)
+ 12. 83.2                                               (confidence: 1.0000)
+ 13. 78.3                                               (confidence: 0.9999)
+ 14. 1.1                                                (confidence: 0.9997)
+ 15. TextField [37]                                     (confidence: 0.9924)
+ 16. 75.9                                               (confidence: 1.0000)
+ 17. 87.4                                               (confidence: 1.0000)
+ 18. 81.3                                               (confidence: 0.9999)
+ 19. 5.2                                                (confidence: 0.9997)
+ 20. MSR[38]                                            (confidence: 0.9998)
+ 21. 76.7                                               (confidence: 1.0000)
+ 22. 87.4                                               (confidence: 1.0000)
+ 23. 81.7                                               (confidence: 1.0000)
+ 24. -                                                  (confidence: 0.9818)
+ 25. FTSN [3]                                           (confidence: 0.9940)
+ 26. 77.1                                               (confidence: 1.0000)
+ 27. 87.6                                               (confidence: 1.0000)
+ 28. 82.0                                               (confidence: 0.9999)
+ 29. -                                                  (confidence: 0.9727)
+ 30. LSE[30]                                            (confidence: 0.9998)
+ 31. 81.7                                               (confidence: 1.0000)
+ 32. 84.2                                               (confidence: 1.0000)
+ 33. 82.9                                               (confidence: 0.9999)
+ 34. CRAFT [2]                                          (confidence: 0.9873)
+ 35. 78.2                                               (confidence: 1.0000)
+ 36. 88.2                                               (confidence: 1.0000)
+ 37. 82.9                                               (confidence: 0.9999)
+ 38. 8.6                                                (confidence: 0.9999)
+ 39. MCN [16]                                           (confidence: 0.9909)
+ 40. 79                                                 (confidence: 1.0000)
+ 41. 88                                                 (confidence: 1.0000)
+ 42. 83                                                 (confidence: 0.9999)
+ 43. ATRR[35]                                           (confidence: 0.9574)
+ 44. -                                                  (confidence: 0.9989)
+ 45. 82.1                                               (confidence: 1.0000)
+ 46. 85.2                                               (confidence: 1.0000)
+ 47. 83.6                                               (confidence: 1.0000)
+ 48. PAN [34]                                           (confidence: 0.9821)
+ 49. 83.8                                               (confidence: 1.0000)
+ 50. 84.4                                               (confidence: 1.0000)
+ 51. 84.1                                               (confidence: 1.0000)
+ 52. 30.2                                               (confidence: 0.9999)
+ 53. DB[12]                                             (confidence: 0.9995)
+ 54. 79.2                                               (confidence: 0.9999)
+ 55. 91.5                                               (confidence: 1.0000)
+ 56. 84.9                                               (confidence: 1.0000)
+ 57. 32.0                                               (confidence: 1.0000)
+ 58. DRRG [41]                                          (confidence: 0.8925)
+ 59. 82.30                                              (confidence: 0.9999)
+ 60. 88.05                                              (confidence: 1.0000)
+ 61. 85.08                                              (confidence: 1.0000)
+ 62. Ours (SynText)                                     (confidence: 0.9774)
+ 63. 80.68                                              (confidence: 0.9999)
+ 64. 85.40                                              (confidence: 1.0000)
+ 65. 82.97                                              (confidence: 0.9237)
+ 66. 12.68                                              (confidence: 0.9832)
+ 67. rs (MLT-17)                                        (confidence: 0.9550)
+ 68. 84.54                                              (confidence: 1.0000)
+ 69. 86.62                                              (confidence: 0.9927)
+ 70. 85.57                                              (confidence: 0.9999)
+ 71. 12.31                                              (confidence: 0.9474)

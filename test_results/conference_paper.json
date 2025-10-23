@@ -1,0 +1,651 @@
+{
+  "timestamp": "2025-10-23T22:05:03.338977",
+  "image_path": "test_documents/papers\\conference_paper.jpg",
+  "total_regions": 28,
+  "results": [
+    {
+      "index": 1,
+      "text": "Efficient Training of Large Language Models",
+      "confidence": 0.9611130356788635,
+      "box": [
+        [
+          151,
+          18
+        ],
+        [
+          592,
+          17
+        ],
+        [
+          592,
+          41
+        ],
+        [
+          151,
+          42
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "text": "Using Mixed Precision and Gradient Checkpointing",
+      "confidence": 0.9889611601829529,
+      "box": [
+        [
+          182,
+          56
+        ],
+        [
+          688,
+          51
+        ],
+        [
+          688,
+          76
+        ],
+        [
+          182,
+          80
+        ]
+      ]
+    },
+    {
+      "index": 3,
+      "text": "ABSTRACT",
+      "confidence": 0.9999480247497559,
+      "box": [
+        [
+          40,
+          117
+        ],
+        [
+          106,
+          117
+        ],
+        [
+          106,
+          131
+        ],
+        [
+          40,
+          131
+        ]
+      ]
+    },
+    {
+      "index": 4,
+      "text": "KEYWORDS",
+      "confidence": 0.9997143745422363,
+      "box": [
+        [
+          461,
+          113
+        ],
+        [
+          531,
+          113
+        ],
+        [
+          531,
+          127
+        ],
+        [
+          461,
+          127
+        ]
+      ]
+    },
+    {
+      "index": 5,
+      "text": "Training large language models",
+      "confidence": 0.9618709087371826,
+      "box": [
+        [
+          40,
+          141
+        ],
+        [
+          205,
+          141
+        ],
+        [
+          205,
+          155
+        ],
+        [
+          40,
+          155
+        ]
+      ]
+    },
+    {
+      "index": 6,
+      "text": "• Large Language Models",
+      "confidence": 0.9929088354110718,
+      "box": [
+        [
+          460,
+          133
+        ],
+        [
+          594,
+          133
+        ],
+        [
+          594,
+          148
+        ],
+        [
+          460,
+          148
+        ]
+      ]
+    },
+    {
+      "index": 7,
+      "text": "requires substantial computational",
+      "confidence": 0.9789990782737732,
+      "box": [
+        [
+          38,
+          157
+        ],
+        [
+          220,
+          156
+        ],
+        [
+          220,
+          170
+        ],
+        [
+          38,
+          171
+        ]
+      ]
+    },
+    {
+      "index": 8,
+      "text": "• Mixed Precision Training",
+      "confidence": 0.9704798460006714,
+      "box": [
+        [
+          459,
+          150
+        ],
+        [
+          596,
+          150
+        ],
+        [
+          596,
+          164
+        ],
+        [
+          459,
+          164
+        ]
+      ]
+    },
+    {
+      "index": 9,
+      "text": "resources. We propose techniques",
+      "confidence": 0.9974735975265503,
+      "box": [
+        [
+          38,
+          173
+        ],
+        [
+          225,
+          172
+        ],
+        [
+          225,
+          186
+        ],
+        [
+          38,
+          187
+        ]
+      ]
+    },
+    {
+      "index": 10,
+      "text": "• Gradient Checkpointing",
+      "confidence": 0.9776449203491211,
+      "box": [
+        [
+          459,
+          166
+        ],
+        [
+          592,
+          166
+        ],
+        [
+          592,
+          179
+        ],
+        [
+          459,
+          179
+        ]
+      ]
+    },
+    {
+      "index": 11,
+      "text": "to reduce memory footprint and",
+      "confidence": 0.9975259304046631,
+      "box": [
+        [
+          39,
+          190
+        ],
+        [
+          206,
+          190
+        ],
+        [
+          206,
+          203
+        ],
+        [
+          39,
+          203
+        ]
+      ]
+    },
+    {
+      "index": 12,
+      "text": "•Memory Optimization",
+      "confidence": 0.9741157293319702,
+      "box": [
+        [
+          458,
+          181
+        ],
+        [
+          581,
+          180
+        ],
+        [
+          581,
+          194
+        ],
+        [
+          459,
+          195
+        ]
+      ]
+    },
+    {
+      "index": 13,
+      "text": "training time while maintaining",
+      "confidence": 0.9998161792755127,
+      "box": [
+        [
+          39,
+          206
+        ],
+        [
+          194,
+          205
+        ],
+        [
+          194,
+          219
+        ],
+        [
+          39,
+          220
+        ]
+      ]
+    },
+    {
+      "index": 14,
+      "text": "model quality. Our approach",
+      "confidence": 0.975345253944397,
+      "box": [
+        [
+          39,
+          222
+        ],
+        [
+          189,
+          221
+        ],
+        [
+          189,
+          236
+        ],
+        [
+          39,
+          237
+        ]
+      ]
+    },
+    {
+      "index": 15,
+      "text": "2. CONTRIBUTIONS",
+      "confidence": 0.985748827457428,
+      "box": [
+        [
+          458,
+          218
+        ],
+        [
+          576,
+          218
+        ],
+        [
+          576,
+          233
+        ],
+        [
+          458,
+          233
+        ]
+      ]
+    },
+    {
+      "index": 16,
+      "text": "combines mixed precision training",
+      "confidence": 0.9946558475494385,
+      "box": [
+        [
+          39,
+          240
+        ],
+        [
+          215,
+          238
+        ],
+        [
+          216,
+          251
+        ],
+        [
+          39,
+          253
+        ]
+      ]
+    },
+    {
+      "index": 17,
+      "text": "• 40% reduction in memory usage",
+      "confidence": 0.9687477946281433,
+      "box": [
+        [
+          469,
+          240
+        ],
+        [
+          648,
+          240
+        ],
+        [
+          648,
+          254
+        ],
+        [
+          469,
+          254
+        ]
+      ]
+    },
+    {
+      "index": 18,
+      "text": "with gradient checkpointing.",
+      "confidence": 0.9808436632156372,
+      "box": [
+        [
+          38,
+          255
+        ],
+        [
+          183,
+          254
+        ],
+        [
+          183,
+          268
+        ],
+        [
+          38,
+          269
+        ]
+      ]
+    },
+    {
+      "index": 19,
+      "text": "• 2x faster training",
+      "confidence": 0.9741870164871216,
+      "box": [
+        [
+          468,
+          257
+        ],
+        [
+          568,
+          257
+        ],
+        [
+          568,
+          271
+        ],
+        [
+          468,
+          271
+        ]
+      ]
+    },
+    {
+      "index": 20,
+      "text": "• No loss in model quality",
+      "confidence": 0.9856222867965698,
+      "box": [
+        [
+          468,
+          274
+        ],
+        [
+          603,
+          274
+        ],
+        [
+          603,
+          288
+        ],
+        [
+          468,
+          288
+        ]
+      ]
+    },
+    {
+      "index": 21,
+      "text": "1. MOTIVATION",
+      "confidence": 0.9843782186508179,
+      "box": [
+        [
+          36,
+          292
+        ],
+        [
+          127,
+          290
+        ],
+        [
+          127,
+          304
+        ],
+        [
+          37,
+          306
+        ]
+      ]
+    },
+    {
+      "index": 22,
+      "text": "•Open-source implementation",
+      "confidence": 0.9830664992332458,
+      "box": [
+        [
+          467,
+          290
+        ],
+        [
+          631,
+          288
+        ],
+        [
+          632,
+          303
+        ],
+        [
+          467,
+          305
+        ]
+      ]
+    },
+    {
+      "index": 23,
+      "text": "Modern LLMs have billions of",
+      "confidence": 0.9898471236228943,
+      "box": [
+        [
+          45,
+          313
+        ],
+        [
+          200,
+          312
+        ],
+        [
+          200,
+          327
+        ],
+        [
+          45,
+          328
+        ]
+      ]
+    },
+    {
+      "index": 24,
+      "text": "parameters. Standard training",
+      "confidence": 0.992537260055542,
+      "box": [
+        [
+          45,
+          330
+        ],
+        [
+          201,
+          330
+        ],
+        [
+          201,
+          344
+        ],
+        [
+          45,
+          344
+        ]
+      ]
+    },
+    {
+      "index": 25,
+      "text": "methods are prohibitively",
+      "confidence": 0.998727560043335,
+      "box": [
+        [
+          44,
+          346
+        ],
+        [
+          176,
+          346
+        ],
+        [
+          176,
+          360
+        ],
+        [
+          44,
+          360
+        ]
+      ]
+    },
+    {
+      "index": 26,
+      "text": "expensive for most researchers.",
+      "confidence": 0.9859131574630737,
+      "box": [
+        [
+          42,
+          363
+        ],
+        [
+          215,
+          361
+        ],
+        [
+          216,
+          375
+        ],
+        [
+          42,
+          377
+        ]
+      ]
+    },
+    {
+      "index": 27,
+      "text": "Memory requirements often exceed",
+      "confidence": 0.9986919164657593,
+      "box": [
+        [
+          40,
+          379
+        ],
+        [
+          229,
+          376
+        ],
+        [
+          229,
+          392
+        ],
+        [
+          40,
+          395
+        ]
+      ]
+    },
+    {
+      "index": 28,
+      "text": "available GPU capacity.",
+      "confidence": 0.9898558855056763,
+      "box": [
+        [
+          40,
+          397
+        ],
+        [
+          168,
+          397
+        ],
+        [
+          168,
+          411
+        ],
+        [
+          40,
+          411
+        ]
+      ]
+    }
+  ]
+}

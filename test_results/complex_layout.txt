@@ -1,0 +1,152 @@
+OCR Results for: test_documents/mixed\complex_layout.jpg
+Timestamp: 2025-10-23T22:06:03.972189
+Total text regions: 71
+============================================================
+
+1. ACKNOWLEDGEMENTS
+2. We would
+3. like
+4. to
+5. thank
+6. all
+7. the
+8. designers and
+9. contributors
+10. who
+11. have
+12. been
+13. involved in the
+14. production
+15. of
+16. this
+17. book;
+18. their
+19. contributions
+20. have
+21. been
+22. indispensable
+23. to
+24. its
+25. creation.
+26. We
+27. would
+28. also
+29. like
+30. to
+31. express
+32. our
+33. gratitude
+34. to
+35. all
+36. the
+37. producers
+38. for
+39. their
+40. invaluable
+41. opinions
+42. and
+43. assistance
+44. throughout
+45. this
+46. project.
+47. And
+48. to
+49. the
+50. many
+51. others
+52. whose
+53. names
+54. are
+55. not
+56. credited
+57. but
+58. have
+59. made
+60. specific
+61. input
+62. in
+63. this
+64. book,
+65. we
+66. thank
+67. you
+68. for
+69. your
+70. continuous
+71. support.
+
+============================================================
+Detailed Results with Confidence Scores:
+============================================================
+
+  1. ACKNOWLEDGEMENTS                                   (confidence: 0.9999)
+  2. We would                                           (confidence: 0.9997)
+  3. like                                               (confidence: 1.0000)
+  4. to                                                 (confidence: 0.9999)
+  5. thank                                              (confidence: 0.9999)
+  6. all                                                (confidence: 0.9998)
+  7. the                                                (confidence: 0.9999)
+  8. designers and                                      (confidence: 0.9992)
+  9. contributors                                       (confidence: 1.0000)
+ 10. who                                                (confidence: 0.9999)
+ 11. have                                               (confidence: 1.0000)
+ 12. been                                               (confidence: 0.9999)
+ 13. involved in the                                    (confidence: 0.9988)
+ 14. production                                         (confidence: 1.0000)
+ 15. of                                                 (confidence: 0.9998)
+ 16. this                                               (confidence: 1.0000)
+ 17. book;                                              (confidence: 0.9998)
+ 18. their                                              (confidence: 0.9999)
+ 19. contributions                                      (confidence: 0.9999)
+ 20. have                                               (confidence: 0.9999)
+ 21. been                                               (confidence: 0.9999)
+ 22. indispensable                                      (confidence: 0.9806)
+ 23. to                                                 (confidence: 0.9999)
+ 24. its                                                (confidence: 1.0000)
+ 25. creation.                                          (confidence: 0.9999)
+ 26. We                                                 (confidence: 0.8983)
+ 27. would                                              (confidence: 1.0000)
+ 28. also                                               (confidence: 0.9999)
+ 29. like                                               (confidence: 0.9051)
+ 30. to                                                 (confidence: 0.9999)
+ 31. express                                            (confidence: 0.9999)
+ 32. our                                                (confidence: 0.9999)
+ 33. gratitude                                          (confidence: 1.0000)
+ 34. to                                                 (confidence: 1.0000)
+ 35. all                                                (confidence: 0.9998)
+ 36. the                                                (confidence: 1.0000)
+ 37. producers                                          (confidence: 1.0000)
+ 38. for                                                (confidence: 0.9999)
+ 39. their                                              (confidence: 0.9999)
+ 40. invaluable                                         (confidence: 1.0000)
+ 41. opinions                                           (confidence: 0.9997)
+ 42. and                                                (confidence: 0.9999)
+ 43. assistance                                         (confidence: 0.9999)
+ 44. throughout                                         (confidence: 0.9999)
+ 45. this                                               (confidence: 1.0000)
+ 46. project.                                           (confidence: 0.9999)
+ 47. And                                                (confidence: 1.0000)
+ 48. to                                                 (confidence: 0.9999)
+ 49. the                                                (confidence: 0.9999)
+ 50. many                                               (confidence: 1.0000)
+ 51. others                                             (confidence: 1.0000)
+ 52. whose                                              (confidence: 1.0000)
+ 53. names                                              (confidence: 1.0000)
+ 54. are                                                (confidence: 1.0000)
+ 55. not                                                (confidence: 1.0000)
+ 56. credited                                           (confidence: 0.9999)
+ 57. but                                                (confidence: 0.9999)
+ 58. have                                               (confidence: 0.9999)
+ 59. made                                               (confidence: 1.0000)
+ 60. specific                                           (confidence: 0.9999)
+ 61. input                                              (confidence: 0.9999)
+ 62. in                                                 (confidence: 1.0000)
+ 63. this                                               (confidence: 1.0000)
+ 64. book,                                              (confidence: 0.9914)
+ 65. we                                                 (confidence: 0.9999)
+ 66. thank                                              (confidence: 0.9998)
+ 67. you                                                (confidence: 0.9999)
+ 68. for                                                (confidence: 0.9999)
+ 69. your                                               (confidence: 1.0000)
+ 70. continuous                                         (confidence: 0.9999)
+ 71. support.                                           (confidence: 0.9999)

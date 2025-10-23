@@ -1,0 +1,86 @@
+OCR Results for: test_documents/invoices\sample_invoice.jpg
+Timestamp: 2025-10-23T22:01:35.101918
+Total text regions: 38
+============================================================
+
+1. INVOICE
+2. Invoice #: INV-2024-001
+3. Date: October 23, 2025
+4. Due Date: November 23, 2025
+5. Bill To:
+6. Acme Corporation
+7. 123 Business Street
+8. New York, NY 10001
+9. From:
+10. Tech Solutions Inc.
+11. 456 Tech Avenue
+12. San Francisco, CA 94105
+13. Description
+14. Quantity
+15. Price
+16. Total
+17. Software License
+18. 10
+19. $500.00
+20. $5,000.00
+21. Technical Support
+22. 12 months
+23. $200.00/mo
+24. $2,400.00
+25. Training Sessions
+26. 5
+27. $300.00
+28. $1,500.00
+29. Installation Fee
+30. 1
+31. $800.00
+32. $800.00
+33. Subtotal:
+34. $9,700.00
+35. Tax (10%):
+36. $970.00
+37. Total Due:
+38. $10,670.00
+
+============================================================
+Detailed Results with Confidence Scores:
+============================================================
+
+  1. INVOICE                                            (confidence: 0.9999)
+  2. Invoice #: INV-2024-001                            (confidence: 0.9862)
+  3. Date: October 23, 2025                             (confidence: 0.9752)
+  4. Due Date: November 23, 2025                        (confidence: 0.9972)
+  5. Bill To:                                           (confidence: 0.9745)
+  6. Acme Corporation                                   (confidence: 0.9999)
+  7. 123 Business Street                                (confidence: 0.9881)
+  8. New York, NY 10001                                 (confidence: 0.9907)
+  9. From:                                              (confidence: 0.9996)
+ 10. Tech Solutions Inc.                                (confidence: 0.9978)
+ 11. 456 Tech Avenue                                    (confidence: 0.9974)
+ 12. San Francisco, CA 94105                            (confidence: 0.9951)
+ 13. Description                                        (confidence: 0.9999)
+ 14. Quantity                                           (confidence: 0.9934)
+ 15. Price                                              (confidence: 0.9999)
+ 16. Total                                              (confidence: 0.9999)
+ 17. Software License                                   (confidence: 0.9998)
+ 18. 10                                                 (confidence: 0.9999)
+ 19. $500.00                                            (confidence: 1.0000)
+ 20. $5,000.00                                          (confidence: 0.9106)
+ 21. Technical Support                                  (confidence: 0.9532)
+ 22. 12 months                                          (confidence: 0.9990)
+ 23. $200.00/mo                                         (confidence: 0.9942)
+ 24. $2,400.00                                          (confidence: 0.9252)
+ 25. Training Sessions                                  (confidence: 0.9850)
+ 26. 5                                                  (confidence: 0.9999)
+ 27. $300.00                                            (confidence: 1.0000)
+ 28. $1,500.00                                          (confidence: 0.9637)
+ 29. Installation Fee                                   (confidence: 0.9970)
+ 30. 1                                                  (confidence: 0.9999)
+ 31. $800.00                                            (confidence: 1.0000)
+ 32. $800.00                                            (confidence: 0.9929)
+ 33. Subtotal:                                          (confidence: 0.9994)
+ 34. $9,700.00                                          (confidence: 0.9997)
+ 35. Tax (10%):                                         (confidence: 0.9542)
+ 36. $970.00                                            (confidence: 0.9999)
+ 37. Total Due:                                         (confidence: 0.9999)
+ 38. $10,670.00                                         (confidence: 0.9670)

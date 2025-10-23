@@ -1,0 +1,66 @@
+OCR Results for: test_documents/papers\conference_paper.jpg
+Timestamp: 2025-10-23T22:05:03.361365
+Total text regions: 28
+============================================================
+
+1. Efficient Training of Large Language Models
+2. Using Mixed Precision and Gradient Checkpointing
+3. ABSTRACT
+4. KEYWORDS
+5. Training large language models
+6. • Large Language Models
+7. requires substantial computational
+8. • Mixed Precision Training
+9. resources. We propose techniques
+10. • Gradient Checkpointing
+11. to reduce memory footprint and
+12. •Memory Optimization
+13. training time while maintaining
+14. model quality. Our approach
+15. 2. CONTRIBUTIONS
+16. combines mixed precision training
+17. • 40% reduction in memory usage
+18. with gradient checkpointing.
+19. • 2x faster training
+20. • No loss in model quality
+21. 1. MOTIVATION
+22. •Open-source implementation
+23. Modern LLMs have billions of
+24. parameters. Standard training
+25. methods are prohibitively
+26. expensive for most researchers.
+27. Memory requirements often exceed
+28. available GPU capacity.
+
+============================================================
+Detailed Results with Confidence Scores:
+============================================================
+
+  1. Efficient Training of Large Language Models        (confidence: 0.9611)
+  2. Using Mixed Precision and Gradient Checkpointing   (confidence: 0.9890)
+  3. ABSTRACT                                           (confidence: 0.9999)
+  4. KEYWORDS                                           (confidence: 0.9997)
+  5. Training large language models                     (confidence: 0.9619)
+  6. • Large Language Models                            (confidence: 0.9929)
+  7. requires substantial computational                 (confidence: 0.9790)
+  8. • Mixed Precision Training                         (confidence: 0.9705)
+  9. resources. We propose techniques                   (confidence: 0.9975)
+ 10. • Gradient Checkpointing                           (confidence: 0.9776)
+ 11. to reduce memory footprint and                     (confidence: 0.9975)
+ 12. •Memory Optimization                               (confidence: 0.9741)
+ 13. training time while maintaining                    (confidence: 0.9998)
+ 14. model quality. Our approach                        (confidence: 0.9753)
+ 15. 2. CONTRIBUTIONS                                   (confidence: 0.9857)
+ 16. combines mixed precision training                  (confidence: 0.9947)
+ 17. • 40% reduction in memory usage                    (confidence: 0.9687)
+ 18. with gradient checkpointing.                       (confidence: 0.9808)
+ 19. • 2x faster training                               (confidence: 0.9742)
+ 20. • No loss in model quality                         (confidence: 0.9856)
+ 21. 1. MOTIVATION                                      (confidence: 0.9844)
+ 22. •Open-source implementation                        (confidence: 0.9831)
+ 23. Modern LLMs have billions of                       (confidence: 0.9898)
+ 24. parameters. Standard training                      (confidence: 0.9925)
+ 25. methods are prohibitively                          (confidence: 0.9987)
+ 26. expensive for most researchers.                    (confidence: 0.9859)
+ 27. Memory requirements often exceed                   (confidence: 0.9987)
+ 28. available GPU capacity.                            (confidence: 0.9899)

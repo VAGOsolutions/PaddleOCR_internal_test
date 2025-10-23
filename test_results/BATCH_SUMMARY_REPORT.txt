@@ -1,0 +1,86 @@
+======================================================================
+PaddleOCR Batch Testing - Complete Summary Report
+======================================================================
+
+Test Date: 2025-10-23T22:00:22.616858
+Total Documents: 9
+Successful: 9
+Failed: 0
+Success Rate: 100.0%
+Total Processing Time: 342.31s
+Average Processing Time: 38.03s
+
+======================================================================
+Category: FORMS
+======================================================================
+
+Document: form_sample_1.jpg
+  Status: success
+  Text Regions: 153
+  Avg Confidence: 0.4432 (44.32%)
+  Processing Time: 132.71s
+
+Document: registration_form.jpg
+  Status: success
+  Text Regions: 28
+  Avg Confidence: 0.9844 (98.44%)
+  Processing Time: 28.19s
+
+======================================================================
+Category: INVOICES
+======================================================================
+
+Document: sample_invoice.jpg
+  Status: success
+  Text Regions: 38
+  Avg Confidence: 0.9878 (98.78%)
+  Processing Time: 20.99s
+
+======================================================================
+Category: MIXED
+======================================================================
+
+Document: complex_layout.jpg
+  Status: success
+  Text Regions: 71
+  Avg Confidence: 0.9967 (99.67%)
+  Processing Time: 34.99s
+
+======================================================================
+Category: PAPERS
+======================================================================
+
+Document: computer_vision_paper.jpg
+  Status: success
+  Text Regions: 36
+  Avg Confidence: 0.9851 (98.51%)
+  Processing Time: 24.34s
+
+Document: conference_paper.jpg
+  Status: success
+  Text Regions: 28
+  Avg Confidence: 0.9853 (98.53%)
+  Processing Time: 22.84s
+
+Document: nlp_survey_paper.jpg
+  Status: success
+  Text Regions: 68
+  Avg Confidence: 0.9871 (98.71%)
+  Processing Time: 26.40s
+
+======================================================================
+Category: TABLES
+======================================================================
+
+Document: sales_report.jpg
+  Status: success
+  Text Regions: 39
+  Avg Confidence: 0.9941 (99.41%)
+  Processing Time: 36.79s
+
+Document: table_sample_1.jpg
+  Status: success
+  Text Regions: 71
+  Avg Confidence: 0.9907 (99.07%)
+  Processing Time: 15.06s
+

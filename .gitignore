@@ -1,9 +1,9 @@
 # PaddleOCR Test Environment - Git Ignore
 
 # Test results
-test_results/
-test_images/
-output/
+# test_results/
+# test_images/
+# output/
 
 # Python
 __pycache__/

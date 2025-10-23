@@ -1,0 +1,66 @@
+OCR Results for: test_documents/forms\registration_form.jpg
+Timestamp: 2025-10-23T22:04:16.145744
+Total text regions: 28
+============================================================
+
+1. Customer Registration Form
+2. First Name:
+3. John
+4. Last Name:
+5. Doe
+6. Email:
+7. john.doe@email.com
+8. Phone:
+9. +1 (555) 123-4567
+10. Address:
+11. 123 Main Street
+12. City:
+13. New York
+14. State:
+15. NY
+16. ZIP Code:
+17. 10001
+18. Country:
+19. United States
+20. Company:
+21. Acme Corp
+22. Job Title:
+23. Software Engineer
+24. Department:
+25. Engineering
+26. Preferences:
+27. Email notifications
+28. SMS notifications
+
+============================================================
+Detailed Results with Confidence Scores:
+============================================================
+
+  1. Customer Registration Form                         (confidence: 0.9838)
+  2. First Name:                                        (confidence: 0.9982)
+  3. John                                               (confidence: 0.9999)
+  4. Last Name:                                         (confidence: 0.9987)
+  5. Doe                                                (confidence: 0.9998)
+  6. Email:                                             (confidence: 0.8654)
+  7. john.doe@email.com                                 (confidence: 0.9992)
+  8. Phone:                                             (confidence: 0.9940)
+  9. +1 (555) 123-4567                                  (confidence: 0.9719)
+ 10. Address:                                           (confidence: 0.9982)
+ 11. 123 Main Street                                    (confidence: 0.9661)
+ 12. City:                                              (confidence: 0.9809)
+ 13. New York                                           (confidence: 0.9993)
+ 14. State:                                             (confidence: 0.9995)
+ 15. NY                                                 (confidence: 0.9997)
+ 16. ZIP Code:                                          (confidence: 0.9648)
+ 17. 10001                                              (confidence: 0.9999)
+ 18. Country:                                           (confidence: 0.9977)
+ 19. United States                                      (confidence: 0.9717)
+ 20. Company:                                           (confidence: 0.9995)
+ 21. Acme Corp                                          (confidence: 0.9570)
+ 22. Job Title:                                         (confidence: 0.9989)
+ 23. Software Engineer                                  (confidence: 0.9989)
+ 24. Department:                                        (confidence: 0.9619)
+ 25. Engineering                                        (confidence: 0.9999)
+ 26. Preferences:                                       (confidence: 0.9999)
+ 27. Email notifications                                (confidence: 0.9988)
+ 28. SMS notifications                                  (confidence: 0.9602)

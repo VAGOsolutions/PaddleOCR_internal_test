@@ -1,0 +1,127 @@
+{
+  "test_date": "2025-10-23T22:00:22.616858",
+  "total_documents": 9,
+  "successful": 9,
+  "failed": 0,
+  "documents": [
+    {
+      "filename": "sales_report.jpg",
+      "category": "tables",
+      "status": "success",
+      "text_regions": 39,
+      "avg_confidence": 0.9941,
+      "processing_time": 36.79,
+      "output_files": {
+        "json": "test_results\\sales_report.json",
+        "txt": "test_results\\sales_report.txt",
+        "image": "test_results\\sales_report_annotated.jpg"
+      }
+    },
+    {
+      "filename": "table_sample_1.jpg",
+      "category": "tables",
+      "status": "success",
+      "text_regions": 71,
+      "avg_confidence": 0.9907,
+      "processing_time": 15.06,
+      "output_files": {
+        "json": "test_results\\table_sample_1.json",
+        "txt": "test_results\\table_sample_1.txt",
+        "image": "test_results\\table_sample_1_annotated.jpg"
+      }
+    },
+    {
+      "filename": "sample_invoice.jpg",
+      "category": "invoices",
+      "status": "success",
+      "text_regions": 38,
+      "avg_confidence": 0.9878,
+      "processing_time": 20.99,
+      "output_files": {
+        "json": "test_results\\sample_invoice.json",
+        "txt": "test_results\\sample_invoice.txt",
+        "image": "test_results\\sample_invoice_annotated.jpg"
+      }
+    },
+    {
+      "filename": "form_sample_1.jpg",
+      "category": "forms",
+      "status": "success",
+      "text_regions": 153,
+      "avg_confidence": 0.4432,
+      "processing_time": 132.71,
+      "output_files": {
+        "json": "test_results\\form_sample_1.json",
+        "txt": "test_results\\form_sample_1.txt",
+        "image": "test_results\\form_sample_1_annotated.jpg"
+      }
+    },
+    {
+      "filename": "registration_form.jpg",
+      "category": "forms",
+      "status": "success",
+      "text_regions": 28,
+      "avg_confidence": 0.9844,
+      "processing_time": 28.19,
+      "output_files": {
+        "json": "test_results\\registration_form.json",
+        "txt": "test_results\\registration_form.txt",
+        "image": "test_results\\registration_form_annotated.jpg"
+      }
+    },
+    {
+      "filename": "computer_vision_paper.jpg",
+      "category": "papers",
+      "status": "success",
+      "text_regions": 36,
+      "avg_confidence": 0.9851,
+      "processing_time": 24.34,
+      "output_files": {
+        "json": "test_results\\computer_vision_paper.json",
+        "txt": "test_results\\computer_vision_paper.txt",
+        "image": "test_results\\computer_vision_paper_annotated.jpg"
+      }
+    },
+    {
+      "filename": "conference_paper.jpg",
+      "category": "papers",
+      "status": "success",
+      "text_regions": 28,
+      "avg_confidence": 0.9853,
+      "processing_time": 22.84,
+      "output_files": {
+        "json": "test_results\\conference_paper.json",
+        "txt": "test_results\\conference_paper.txt",
+        "image": "test_results\\conference_paper_annotated.jpg"
+      }
+    },
+    {
+      "filename": "nlp_survey_paper.jpg",
+      "category": "papers",
+      "status": "success",
+      "text_regions": 68,
+      "avg_confidence": 0.9871,
+      "processing_time": 26.4,
+      "output_files": {
+        "json": "test_results\\nlp_survey_paper.json",
+        "txt": "test_results\\nlp_survey_paper.txt",
+        "image": "test_results\\nlp_survey_paper_annotated.jpg"
+      }
+    },
+    {
+      "filename": "complex_layout.jpg",
+      "category": "mixed",
+      "status": "success",
+      "text_regions": 71,
+      "avg_confidence": 0.9967,
+      "processing_time": 34.99,
+      "output_files": {
+        "json": "test_results\\complex_layout.json",
+        "txt": "test_results\\complex_layout.txt",
+        "image": "test_results\\complex_layout_annotated.jpg"
+      }
+    }
+  ],
+  "total_processing_time": 342.31,
+  "avg_processing_time": 38.03
+}

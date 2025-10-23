@@ -1,0 +1,316 @@
+OCR Results for: test_documents/forms\form_sample_1.jpg
+Timestamp: 2025-10-23T22:03:38.897591
+Total text regions: 153
+============================================================
+
+1. MMEI
+2. :
+3. 
+4. H4
+5. E
+6. 
+7. E
+8. (
+9. 1
+10. 4
+11. #
+12. 19971217
+13. (
+14. )
+15. H3
+16. $
+17. 
+18. /
+19. 
+20. ¥
+21. E
+22. $fr$
+23. i
+24. UT
+25. AYE
+26. ()
+27. *
+28. IF(
+29. 
+30. $
+31. 
+32. 
+33. 100085
+34. 
+35. th
+36. 
+37. $\$fr}$
+38. E1
+39. 
+40. 
+41. F
+42. ≠
+43. 
+44. 
+45. R
+46. F
+47. H
+48. 
+49. 
+50. 
+51. 20196
+52. 
+53. 
+54. 1
+55. 
+56. 1
+57. 20196
+58. E14
+59. D47854648486893
+60. E
+61. E1474
+62. #
+63. 62
+64. FF
+65. 
+66. 
+67. 13585662395
+68. HIS
+69. 100085
+70. 
+71. 
+72. $\fra{23}$
+73. 
+74. E
+75. F
+76. FE
+77. A↑
+78. 13585662395
+79. EFR
+80. 2895695697@qq.com
+81. DRE
+82. 1
+83. 13985662395
+84. 
+85. 100085
+86. (Xi
+87. 15424m137X66535
+88. ITAEH#TXM39
+89. imiRuht
+90. M
+91. 1
+92. T
+93. 100085
+94. HARKE
+95. Htm
+96. 2E1x
+97. T
+98. 4RI1
+99. 
+100. CAEH
+101. 43k9kEWNR
+102. 
+103. A
+104. 
+105. 1895695897@gtg.com
+106. 
+107. T54A4HX63
+108. iUtt
+109. J
+110. M6A
+111. 100085
+112. <EES
+113. 20
+114. 
+115. THE
+116. SYOERE
+117. 
+118. 2B
+119. AD
+120. 1 0: 1. FCEa
+121. 105a e. Rm () mA. Wrno.
+122. 806" P501
+123. AY
+124. BEER
+125. 9945, U2
+126. Hpale
+127. "Kit"Trw, "tetWe73vobenny "Ik" krtwnw.
+128. 3. W4R, M0T9, MIE
+129. 
+130. SE
+131. 
+132. DE47
+133. E
+134. i81
+135. i#k
+136. 
+137. 
+138. 
+139. AF
+140. (#9AK)
+141. A
+142. 1t
+143. 1125
+144. 
+145. 
+146. i
+147. *
+148. A
+149. VH
+150. E
+151. iE #
+152. 1-3
+153. 1-3
+
+============================================================
+Detailed Results with Confidence Scores:
+============================================================
+
+  1. MMEI                                               (confidence: 0.5910)
+  2. :                                                  (confidence: 0.8675)
+  3.                                                    (confidence: 0.0000)
+  4. H4                                                 (confidence: 0.7027)
+  5. E                                                  (confidence: 0.5335)
+  6.                                                    (confidence: 0.0000)
+  7. E                                                  (confidence: 0.4930)
+  8. (                                                  (confidence: 0.8913)
+  9. 1                                                  (confidence: 0.4324)
+ 10. 4                                                  (confidence: 0.5405)
+ 11. #                                                  (confidence: 0.7096)
+ 12. 19971217                                           (confidence: 0.9866)
+ 13. (                                                  (confidence: 0.4640)
+ 14. )                                                  (confidence: 0.7527)
+ 15. H3                                                 (confidence: 0.3609)
+ 16. $                                                  (confidence: 0.6496)
+ 17.                                                    (confidence: 0.0000)
+ 18. /                                                  (confidence: 0.9313)
+ 19.                                                    (confidence: 0.0000)
+ 20. ¥                                                  (confidence: 0.7009)
+ 21. E                                                  (confidence: 0.4886)
+ 22. $fr$                                               (confidence: 0.6077)
+ 23. i                                                  (confidence: 0.2383)
+ 24. UT                                                 (confidence: 0.6545)
+ 25. AYE                                                (confidence: 0.2731)
+ 26. ()                                                 (confidence: 0.7894)
+ 27. *                                                  (confidence: 0.6174)
+ 28. IF(                                                (confidence: 0.6659)
+ 29.                                                    (confidence: 0.0000)
+ 30. $                                                  (confidence: 0.7023)
+ 31.                                                    (confidence: 0.0000)
+ 32.                                                    (confidence: 0.0000)
+ 33. 100085                                             (confidence: 1.0000)
+ 34.                                                    (confidence: 0.0000)
+ 35. th                                                 (confidence: 0.6587)
+ 36.                                                    (confidence: 0.0000)
+ 37. $\$fr}$                                            (confidence: 0.6922)
+ 38. E1                                                 (confidence: 0.5660)
+ 39.                                                    (confidence: 0.0000)
+ 40.                                                    (confidence: 0.0000)
+ 41. F                                                  (confidence: 0.6343)
+ 42. ≠                                                  (confidence: 0.8141)
+ 43.                                                    (confidence: 0.0000)
+ 44.                                                    (confidence: 0.0000)
+ 45. R                                                  (confidence: 0.4077)
+ 46. F                                                  (confidence: 0.6766)
+ 47. H                                                  (confidence: 0.5716)
+ 48.                                                    (confidence: 0.0000)
+ 49.                                                    (confidence: 0.0000)
+ 50.                                                    (confidence: 0.0000)
+ 51. 20196                                              (confidence: 0.9737)
+ 52.                                                    (confidence: 0.0000)
+ 53.                                                    (confidence: 0.0000)
+ 54. 1                                                  (confidence: 0.5151)
+ 55.                                                    (confidence: 0.0000)
+ 56. 1                                                  (confidence: 0.6042)
+ 57. 20196                                              (confidence: 0.9483)
+ 58. E14                                                (confidence: 0.8766)
+ 59. D47854648486893                                    (confidence: 0.9999)
+ 60. E                                                  (confidence: 0.6321)
+ 61. E1474                                              (confidence: 0.6643)
+ 62. #                                                  (confidence: 0.5592)
+ 63. 62                                                 (confidence: 0.7183)
+ 64. FF                                                 (confidence: 0.6938)
+ 65.                                                    (confidence: 0.0000)
+ 66.                                                    (confidence: 0.0000)
+ 67. 13585662395                                        (confidence: 1.0000)
+ 68. HIS                                                (confidence: 0.6802)
+ 69. 100085                                             (confidence: 1.0000)
+ 70.                                                    (confidence: 0.0000)
+ 71.                                                    (confidence: 0.0000)
+ 72. $\fra{23}$                                         (confidence: 0.7292)
+ 73.                                                    (confidence: 0.0000)
+ 74. E                                                  (confidence: 0.5384)
+ 75. F                                                  (confidence: 0.3220)
+ 76. FE                                                 (confidence: 0.4607)
+ 77. A↑                                                 (confidence: 0.3777)
+ 78. 13585662395                                        (confidence: 0.9999)
+ 79. EFR                                                (confidence: 0.3258)
+ 80. 2895695697@qq.com                                  (confidence: 0.8501)
+ 81. DRE                                                (confidence: 0.4617)
+ 82. 1                                                  (confidence: 0.1521)
+ 83. 13985662395                                        (confidence: 0.9321)
+ 84.                                                    (confidence: 0.0000)
+ 85. 100085                                             (confidence: 0.9994)
+ 86. (Xi                                                (confidence: 0.2451)
+ 87. 15424m137X66535                                    (confidence: 0.5618)
+ 88. ITAEH#TXM39                                        (confidence: 0.5288)
+ 89. imiRuht                                            (confidence: 0.4728)
+ 90. M                                                  (confidence: 0.2099)
+ 91. 1                                                  (confidence: 0.5024)
+ 92. T                                                  (confidence: 0.4164)
+ 93. 100085                                             (confidence: 0.9989)
+ 94. HARKE                                              (confidence: 0.6219)
+ 95. Htm                                                (confidence: 0.2171)
+ 96. 2E1x                                               (confidence: 0.2825)
+ 97. T                                                  (confidence: 0.3265)
+ 98. 4RI1                                               (confidence: 0.4104)
+ 99.                                                    (confidence: 0.0000)
+100. CAEH                                               (confidence: 0.3625)
+101. 43k9kEWNR                                          (confidence: 0.4832)
+102.                                                    (confidence: 0.0000)
+103. A                                                  (confidence: 0.6073)
+104.                                                    (confidence: 0.0000)
+105. 1895695897@gtg.com                                 (confidence: 0.9510)
+106.                                                    (confidence: 0.0000)
+107. T54A4HX63                                          (confidence: 0.4353)
+108. iUtt                                               (confidence: 0.2770)
+109. J                                                  (confidence: 0.4500)
+110. M6A                                                (confidence: 0.2349)
+111. 100085                                             (confidence: 0.9997)
+112. <EES                                               (confidence: 0.5948)
+113. 20                                                 (confidence: 0.5634)
+114.                                                    (confidence: 0.0000)
+115. THE                                                (confidence: 0.5936)
+116. SYOERE                                             (confidence: 0.3252)
+117.                                                    (confidence: 0.0000)
+118. 2B                                                 (confidence: 0.3152)
+119. AD                                                 (confidence: 0.5329)
+120. 1 0: 1. FCEa                                       (confidence: 0.3777)
+121. 105a e. Rm () mA. Wrno.                            (confidence: 0.4095)
+122. 806" P501                                          (confidence: 0.5520)
+123. AY                                                 (confidence: 0.4505)
+124. BEER                                               (confidence: 0.2323)
+125. 9945, U2                                           (confidence: 0.5324)
+126. Hpale                                              (confidence: 0.4382)
+127. "Kit"Trw, "tetWe73vobenny "Ik" krtwnw.             (confidence: 0.5332)
+128. 3. W4R, M0T9, MIE                                  (confidence: 0.4826)
+129.                                                    (confidence: 0.0000)
+130. SE                                                 (confidence: 0.8269)
+131.                                                    (confidence: 0.0000)
+132. DE47                                               (confidence: 0.5749)
+133. E                                                  (confidence: 0.5553)
+134. i81                                                (confidence: 0.4866)
+135. i#k                                                (confidence: 0.4894)
+136.                                                    (confidence: 0.0000)
+137.                                                    (confidence: 0.0000)
+138.                                                    (confidence: 0.0000)
+139. AF                                                 (confidence: 0.8116)
+140. (#9AK)                                             (confidence: 0.5777)
+141. A                                                  (confidence: 0.4019)
+142. 1t                                                 (confidence: 0.6337)
+143. 1125                                               (confidence: 0.4742)
+144.                                                    (confidence: 0.0000)
+145.                                                    (confidence: 0.0000)
+146. i                                                  (confidence: 0.7404)
+147. *                                                  (confidence: 0.3687)
+148. A                                                  (confidence: 0.2253)
+149. VH                                                 (confidence: 0.2621)
+150. E                                                  (confidence: 0.6739)
+151. iE #                                               (confidence: 0.7130)
+152. 1-3                                                (confidence: 0.7835)
+153. 1-3                                                (confidence: 0.9998)

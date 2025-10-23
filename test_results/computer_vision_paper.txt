@@ -1,0 +1,82 @@
+OCR Results for: test_documents/papers\computer_vision_paper.jpg
+Timestamp: 2025-10-23T22:04:40.352030
+Total text regions: 36
+============================================================
+
+1. Advances in Computer Vision:
+2. From CNNs to Vision Transformers
+3. Alice Chen · Bob Wilson - Carol Davis
+4. University of California, Berkeley
+5. ABSTRACT
+6. Computer vision has evolved dramatically with deep learning. This paper
+7. reviews the progression from convolutional neural networks to modern
+8. vision transformers. We analyze architectural innovations, training
+9. techniques, and performance improvements across image classification,
+10. object detection, and segmentation tasks. Our experiments demonstrate
+11. that hybrid approaches combining CNNs and transformers achieve optimal
+12. results for most vision tasks
+13. 1. INTRODUCTION
+14. Deep learning has transformed computer vision since AlexNet's
+15. breakthrough in 2012. Convolutional Neural Networks (CNNs) became
+16. the dominant architecture for image-related tasks.
+17. Recent introduction of Vision Transformers (ViT) challenges this
+18. paradigm, showing that attention-based models can match or exceed
+19. CNN performance when trained on sufficient data.
+20. 2. BACKGROUND
+21. 2.1 Convolutional Neural Networks
+22. CNNs use local receptive fields and parameter sharing to process
+23. images efficiently. Key architectures include ResNet, VGG, and
+24. Inception networks.
+25. 2.2 Vision Transformers
+26. ViT applies transformer architecture to image patches. Self-attention
+27. mechanisms capture global dependencies without convolutions.
+28. 3. EXPERIMENTAL SETUP
+29. We evaluate models on ImageNet-1K (1.3M images, 1000 classes).
+30. Training uses standard data augmentation: random crops, flips,
+31. and color jittering. All models trained for 300 epochs with
+32. AdamW optimizer.
+33. REFERENCES
+34. [1] He et al. Deep Residual Learning. CVPR 2016.
+35. [2] Dosovitskiy et al. An Image is Worth 16x16 Words. ICLR 2021.
+36. [3] Liu et al. Swin Transformer. ICCV 2021.
+
+============================================================
+Detailed Results with Confidence Scores:
+============================================================
+
+  1. Advances in Computer Vision:                       (confidence: 0.9995)
+  2. From CNNs to Vision Transformers                   (confidence: 0.9966)
+  3. Alice Chen · Bob Wilson - Carol Davis              (confidence: 0.9671)
+  4. University of California, Berkeley                 (confidence: 0.9830)
+  5. ABSTRACT                                           (confidence: 0.9998)
+  6. Computer vision has evolved dramatically with deep learning. This paper (confidence: 0.9820)
+  7. reviews the progression from convolutional neural networks to modern (confidence: 0.9836)
+  8. vision transformers. We analyze architectural innovations, training (confidence: 0.9866)
+  9. techniques, and performance improvements across image classification, (confidence: 0.9781)
+ 10. object detection, and segmentation tasks. Our experiments demonstrate (confidence: 0.9822)
+ 11. that hybrid approaches combining CNNs and transformers achieve optimal (confidence: 0.9764)
+ 12. results for most vision tasks                      (confidence: 0.9736)
+ 13. 1. INTRODUCTION                                    (confidence: 0.9977)
+ 14. Deep learning has transformed computer vision since AlexNet's (confidence: 0.9703)
+ 15. breakthrough in 2012. Convolutional Neural Networks (CNNs) became (confidence: 0.9949)
+ 16. the dominant architecture for image-related tasks. (confidence: 0.9938)
+ 17. Recent introduction of Vision Transformers (ViT) challenges this (confidence: 0.9794)
+ 18. paradigm, showing that attention-based models can match or exceed (confidence: 0.9889)
+ 19. CNN performance when trained on sufficient data.   (confidence: 0.9781)
+ 20. 2. BACKGROUND                                      (confidence: 0.9578)
+ 21. 2.1 Convolutional Neural Networks                  (confidence: 0.9966)
+ 22. CNNs use local receptive fields and parameter sharing to process (confidence: 0.9836)
+ 23. images efficiently. Key architectures include ResNet, VGG, and (confidence: 0.9632)
+ 24. Inception networks.                                (confidence: 0.9998)
+ 25. 2.2 Vision Transformers                            (confidence: 0.9979)
+ 26. ViT applies transformer architecture to image patches. Self-attention (confidence: 0.9778)
+ 27. mechanisms capture global dependencies without convolutions. (confidence: 0.9859)
+ 28. 3. EXPERIMENTAL SETUP                              (confidence: 0.9908)
+ 29. We evaluate models on ImageNet-1K (1.3M images, 1000 classes). (confidence: 0.9861)
+ 30. Training uses standard data augmentation: random crops, flips, (confidence: 0.9852)
+ 31. and color jittering. All models trained for 300 epochs with (confidence: 0.9892)
+ 32. AdamW optimizer.                                   (confidence: 0.9988)
+ 33. REFERENCES                                         (confidence: 0.9998)
+ 34. [1] He et al. Deep Residual Learning. CVPR 2016.   (confidence: 0.9811)
+ 35. [2] Dosovitskiy et al. An Image is Worth 16x16 Words. ICLR 2021. (confidence: 0.9760)
+ 36. [3] Liu et al. Swin Transformer. ICCV 2021.        (confidence: 0.9838)

@@ -1,0 +1,835 @@
+{
+  "timestamp": "2025-10-23T22:04:40.329130",
+  "image_path": "test_documents/papers\\computer_vision_paper.jpg",
+  "total_regions": 36,
+  "results": [
+    {
+      "index": 1,
+      "text": "Advances in Computer Vision:",
+      "confidence": 0.999536395072937,
+      "box": [
+        [
+          106,
+          0
+        ],
+        [
+          428,
+          1
+        ],
+        [
+          428,
+          29
+        ],
+        [
+          106,
+          28
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "text": "From CNNs to Vision Transformers",
+      "confidence": 0.9965695738792419,
+      "box": [
+        [
+          141,
+          34
+        ],
+        [
+          510,
+          41
+        ],
+        [
+          509,
+          72
+        ],
+        [
+          141,
+          66
+        ]
+      ]
+    },
+    {
+      "index": 3,
+      "text": "Alice Chen · Bob Wilson - Carol Davis",
+      "confidence": 0.967077910900116,
+      "box": [
+        [
+          252,
+          96
+        ],
+        [
+          450,
+          100
+        ],
+        [
+          449,
+          117
+        ],
+        [
+          252,
+          113
+        ]
+      ]
+    },
+    {
+      "index": 4,
+      "text": "University of California, Berkeley",
+      "confidence": 0.9829761385917664,
+      "box": [
+        [
+          285,
+          120
+        ],
+        [
+          454,
+          126
+        ],
+        [
+          453,
+          143
+        ],
+        [
+          284,
+          137
+        ]
+      ]
+    },
+    {
+      "index": 5,
+      "text": "ABSTRACT",
+      "confidence": 0.9997549057006836,
+      "box": [
+        [
+          34,
+          177
+        ],
+        [
+          126,
+          181
+        ],
+        [
+          125,
+          199
+        ],
+        [
+          33,
+          195
+        ]
+      ]
+    },
+    {
+      "index": 6,
+      "text": "Computer vision has evolved dramatically with deep learning. This paper",
+      "confidence": 0.9820465445518494,
+      "box": [
+        [
+          44,
+          203
+        ],
+        [
+          426,
+          208
+        ],
+        [
+          426,
+          229
+        ],
+        [
+          44,
+          223
+        ]
+      ]
+    },
+    {
+      "index": 7,
+      "text": "reviews the progression from convolutional neural networks to modern",
+      "confidence": 0.9836357235908508,
+      "box": [
+        [
+          43,
+          221
+        ],
+        [
+          416,
+          226
+        ],
+        [
+          416,
+          246
+        ],
+        [
+          43,
+          242
+        ]
+      ]
+    },
+    {
+      "index": 8,
+      "text": "vision transformers. We analyze architectural innovations, training",
+      "confidence": 0.9865503907203674,
+      "box": [
+        [
+          44,
+          239
+        ],
+        [
+          393,
+          244
+        ],
+        [
+          392,
+          264
+        ],
+        [
+          44,
+          259
+        ]
+      ]
+    },
+    {
+      "index": 9,
+      "text": "techniques, and performance improvements across image classification,",
+      "confidence": 0.9781445264816284,
+      "box": [
+        [
+          43,
+          257
+        ],
+        [
+          425,
+          261
+        ],
+        [
+          425,
+          281
+        ],
+        [
+          43,
+          277
+        ]
+      ]
+    },
+    {
+      "index": 10,
+      "text": "object detection, and segmentation tasks. Our experiments demonstrate",
+      "confidence": 0.9822055101394653,
+      "box": [
+        [
+          44,
+          274
+        ],
+        [
+          424,
+          278
+        ],
+        [
+          424,
+          298
+        ],
+        [
+          44,
+          294
+        ]
+      ]
+    },
+    {
+      "index": 11,
+      "text": "that hybrid approaches combining CNNs and transformers achieve optimal",
+      "confidence": 0.976367712020874,
+      "box": [
+        [
+          43,
+          291
+        ],
+        [
+          437,
+          295
+        ],
+        [
+          437,
+          316
+        ],
+        [
+          43,
+          311
+        ]
+      ]
+    },
+    {
+      "index": 12,
+      "text": "results for most vision tasks",
+      "confidence": 0.9735667705535889,
+      "box": [
+        [
+          45,
+          310
+        ],
+        [
+          197,
+          315
+        ],
+        [
+          197,
+          329
+        ],
+        [
+          44,
+          324
+        ]
+      ]
+    },
+    {
+      "index": 13,
+      "text": "1. INTRODUCTION",
+      "confidence": 0.9976536631584167,
+      "box": [
+        [
+          32,
+          376
+        ],
+        [
+          171,
+          376
+        ],
+        [
+          171,
+          393
+        ],
+        [
+          32,
+          393
+        ]
+      ]
+    },
+    {
+      "index": 14,
+      "text": "Deep learning has transformed computer vision since AlexNet's",
+      "confidence": 0.970325767993927,
+      "box": [
+        [
+          55,
+          404
+        ],
+        [
+          386,
+          404
+        ],
+        [
+          386,
+          419
+        ],
+        [
+          55,
+          419
+        ]
+      ]
+    },
+    {
+      "index": 15,
+      "text": "breakthrough in 2012. Convolutional Neural Networks (CNNs) became",
+      "confidence": 0.9949241280555725,
+      "box": [
+        [
+          53,
+          421
+        ],
+        [
+          423,
+          422
+        ],
+        [
+          423,
+          439
+        ],
+        [
+          53,
+          438
+        ]
+      ]
+    },
+    {
+      "index": 16,
+      "text": "the dominant architecture for image-related tasks.",
+      "confidence": 0.9938122630119324,
+      "box": [
+        [
+          54,
+          441
+        ],
+        [
+          316,
+          440
+        ],
+        [
+          316,
+          454
+        ],
+        [
+          54,
+          455
+        ]
+      ]
+    },
+    {
+      "index": 17,
+      "text": "Recent introduction of Vision Transformers (ViT) challenges this",
+      "confidence": 0.9794254899024963,
+      "box": [
+        [
+          54,
+          476
+        ],
+        [
+          387,
+          475
+        ],
+        [
+          387,
+          489
+        ],
+        [
+          54,
+          490
+        ]
+      ]
+    },
+    {
+      "index": 18,
+      "text": "paradigm, showing that attention-based models can match or exceed",
+      "confidence": 0.9889159202575684,
+      "box": [
+        [
+          53,
+          493
+        ],
+        [
+          414,
+          490
+        ],
+        [
+          414,
+          508
+        ],
+        [
+          53,
+          511
+        ]
+      ]
+    },
+    {
+      "index": 19,
+      "text": "CNN performance when trained on sufficient data.",
+      "confidence": 0.9781172871589661,
+      "box": [
+        [
+          55,
+          513
+        ],
+        [
+          315,
+          508
+        ],
+        [
+          315,
+          525
+        ],
+        [
+          55,
+          529
+        ]
+      ]
+    },
+    {
+      "index": 20,
+      "text": "2. BACKGROUND",
+      "confidence": 0.9577974677085876,
+      "box": [
+        [
+          30,
+          544
+        ],
+        [
+          164,
+          541
+        ],
+        [
+          164,
+          558
+        ],
+        [
+          31,
+          561
+        ]
+      ]
+    },
+    {
+      "index": 21,
+      "text": "2.1 Convolutional Neural Networks",
+      "confidence": 0.9965613484382629,
+      "box": [
+        [
+          54,
+          571
+        ],
+        [
+          236,
+          567
+        ],
+        [
+          236,
+          581
+        ],
+        [
+          54,
+          585
+        ]
+      ]
+    },
+    {
+      "index": 22,
+      "text": "CNNs use local receptive fields and parameter sharing to process",
+      "confidence": 0.9835995435714722,
+      "box": [
+        [
+          54,
+          586
+        ],
+        [
+          398,
+          582
+        ],
+        [
+          399,
+          601
+        ],
+        [
+          54,
+          605
+        ]
+      ]
+    },
+    {
+      "index": 23,
+      "text": "images efficiently. Key architectures include ResNet, VGG, and",
+      "confidence": 0.9631927609443665,
+      "box": [
+        [
+          52,
+          604
+        ],
+        [
+          386,
+          599
+        ],
+        [
+          387,
+          620
+        ],
+        [
+          52,
+          624
+        ]
+      ]
+    },
+    {
+      "index": 24,
+      "text": "Inception networks.",
+      "confidence": 0.9997771382331848,
+      "box": [
+        [
+          54,
+          625
+        ],
+        [
+          159,
+          621
+        ],
+        [
+          160,
+          635
+        ],
+        [
+          54,
+          639
+        ]
+      ]
+    },
+    {
+      "index": 25,
+      "text": "2.2 Vision Transformers",
+      "confidence": 0.9978936910629272,
+      "box": [
+        [
+          52,
+          659
+        ],
+        [
+          182,
+          655
+        ],
+        [
+          182,
+          669
+        ],
+        [
+          52,
+          674
+        ]
+      ]
+    },
+    {
+      "index": 26,
+      "text": "ViT applies transformer architecture to image patches. Self-attention",
+      "confidence": 0.9777780175209045,
+      "box": [
+        [
+          51,
+          673
+        ],
+        [
+          409,
+          672
+        ],
+        [
+          409,
+          693
+        ],
+        [
+          51,
+          694
+        ]
+      ]
+    },
+    {
+      "index": 27,
+      "text": "mechanisms capture global dependencies without convolutions.",
+      "confidence": 0.9859158396720886,
+      "box": [
+        [
+          52,
+          693
+        ],
+        [
+          387,
+          692
+        ],
+        [
+          387,
+          710
+        ],
+        [
+          52,
+          711
+        ]
+      ]
+    },
+    {
+      "index": 28,
+      "text": "3. EXPERIMENTAL SETUP",
+      "confidence": 0.9908162355422974,
+      "box": [
+        [
+          29,
+          726
+        ],
+        [
+          222,
+          722
+        ],
+        [
+          222,
+          739
+        ],
+        [
+          30,
+          743
+        ]
+      ]
+    },
+    {
+      "index": 29,
+      "text": "We evaluate models on ImageNet-1K (1.3M images, 1000 classes).",
+      "confidence": 0.9860747456550598,
+      "box": [
+        [
+          52,
+          749
+        ],
+        [
+          406,
+          751
+        ],
+        [
+          406,
+          769
+        ],
+        [
+          52,
+          767
+        ]
+      ]
+    },
+    {
+      "index": 30,
+      "text": "Training uses standard data augmentation: random crops, flips,",
+      "confidence": 0.9852432608604431,
+      "box": [
+        [
+          52,
+          769
+        ],
+        [
+          385,
+          770
+        ],
+        [
+          385,
+          788
+        ],
+        [
+          52,
+          787
+        ]
+      ]
+    },
+    {
+      "index": 31,
+      "text": "and color jittering. All models trained for 300 epochs with",
+      "confidence": 0.9892240762710571,
+      "box": [
+        [
+          54,
+          789
+        ],
+        [
+          345,
+          790
+        ],
+        [
+          345,
+          804
+        ],
+        [
+          54,
+          803
+        ]
+      ]
+    },
+    {
+      "index": 32,
+      "text": "AdamW optimizer.",
+      "confidence": 0.9987568855285645,
+      "box": [
+        [
+          55,
+          808
+        ],
+        [
+          152,
+          808
+        ],
+        [
+          152,
+          821
+        ],
+        [
+          55,
+          821
+        ]
+      ]
+    },
+    {
+      "index": 33,
+      "text": "REFERENCES",
+      "confidence": 0.9997501373291016,
+      "box": [
+        [
+          31,
+          856
+        ],
+        [
+          137,
+          860
+        ],
+        [
+          136,
+          877
+        ],
+        [
+          30,
+          873
+        ]
+      ]
+    },
+    {
+      "index": 34,
+      "text": "[1] He et al. Deep Residual Learning. CVPR 2016.",
+      "confidence": 0.9810907244682312,
+      "box": [
+        [
+          51,
+          884
+        ],
+        [
+          312,
+          888
+        ],
+        [
+          312,
+          905
+        ],
+        [
+          51,
+          901
+        ]
+      ]
+    },
+    {
+      "index": 35,
+      "text": "[2] Dosovitskiy et al. An Image is Worth 16x16 Words. ICLR 2021.",
+      "confidence": 0.9759907126426697,
+      "box": [
+        [
+          50,
+          904
+        ],
+        [
+          401,
+          910
+        ],
+        [
+          400,
+          928
+        ],
+        [
+          50,
+          922
+        ]
+      ]
+    },
+    {
+      "index": 36,
+      "text": "[3] Liu et al. Swin Transformer. ICCV 2021.",
+      "confidence": 0.9837718605995178,
+      "box": [
+        [
+          49,
+          923
+        ],
+        [
+          277,
+          929
+        ],
+        [
+          276,
+          946
+        ],
+        [
+          49,
+          940
+        ]
+      ]
+    }
+  ]
+}
