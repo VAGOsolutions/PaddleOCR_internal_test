@@ -1,0 +1,85 @@
+OCR Results for: page_058.png
+Timestamp: 2025-10-27T19:18:39.632688
+======================================================================
+
+EXTRACTED TEXT:
+----------------------------------------------------------------------
+2.1.1.1
+Ensure
+Cloud
+Object Storage encryption is done with
+customer managed
+keys
+(Manual)
+Profile Applicability:
+Level 2
+Description:
+Users can store objects in IBM Cloud Object Storage buckets by providing their own
+encryption keys which get applied at a per object level.
+Rationale:
+Users can have added security and granular control over the encryption keys at a per
+object level.
+Impact:
+Users can configure Cloud Object Storage and use their own root keys when uploading
+objects. For any key rotation (or new key usage) users will have to issue a GET
+operation with the old key and a PUT operation with the new key.
+Audit:
+Using Console: N/A
+Using API/CLI:
+Use of Server-Side Encryption with Customer-Provided Keys (SSE-C) can be validated
+by the following steps:
+Note: Ensure that you have completed the configuration setup to use the CLI by
+following the guidelines on the Using the AWS CLI page
+1. Review the metadata of the object that is encrypted using the customer-provided
+key. The operation can be performed using an APl call or via a command-line
+interface. Here is an example call to get the object metadata:
+aws --endpoint https://s3.private.au-syd.cloud-object-
+storage.appdomain.cloud s3api head-object --bucket <bucket-name> --key
+<object-name> --sse-customer-algorithm=AEs256 --sse-customer-
+key=<customer-key-used-to encrypt-the-object>
+2.
+The presence of the object headers ssECustomerKeyMD5 and
+SSECustomerA1gorithm from the API/CLI response should confirm that the object
+is encrypted using the key.
+
+======================================================================
+DETAILED RESULTS WITH CONFIDENCE:
+======================================================================
+
+  1. [0.9968] 2.1.1.1
+  2. [0.9285] Ensure
+  3. [0.9999] Cloud
+  4. [0.9858] Object Storage encryption is done with
+  5. [0.9837] customer managed
+  6. [0.9999] keys
+  7. [0.9993] (Manual)
+  8. [0.9621] Profile Applicability:
+  9. [0.9990] Level 2
+ 10. [0.9999] Description:
+ 11. [0.9860] Users can store objects in IBM Cloud Object Storage buckets by providing their own
+ 12. [0.9795] encryption keys which get applied at a per object level.
+ 13. [0.9999] Rationale:
+ 14. [0.9881] Users can have added security and granular control over the encryption keys at a per
+ 15. [0.9533] object level.
+ 16. [0.9998] Impact:
+ 17. [0.9882] Users can configure Cloud Object Storage and use their own root keys when uploading
+ 18. [0.9941] objects. For any key rotation (or new key usage) users will have to issue a GET
+ 19. [0.9894] operation with the old key and a PUT operation with the new key.
+ 20. [0.9998] Audit:
+ 21. [0.9980] Using Console: N/A
+ 22. [0.9979] Using API/CLI:
+ 23. [0.9925] Use of Server-Side Encryption with Customer-Provided Keys (SSE-C) can be validated
+ 24. [0.9721] by the following steps:
+ 25. [0.9838] Note: Ensure that you have completed the configuration setup to use the CLI by
+ 26. [0.9887] following the guidelines on the Using the AWS CLI page
+ 27. [0.9834] 1. Review the metadata of the object that is encrypted using the customer-provided
+ 28. [0.9865] key. The operation can be performed using an APl call or via a command-line
+ 29. [0.9926] interface. Here is an example call to get the object metadata:
+ 30. [0.9999] aws --endpoint https://s3.private.au-syd.cloud-object-
+ 31. [0.9997] storage.appdomain.cloud s3api head-object --bucket <bucket-name> --key
+ 32. [0.9881] <object-name> --sse-customer-algorithm=AEs256 --sse-customer-
+ 33. [0.9979] key=<customer-key-used-to encrypt-the-object>
+ 34. [0.9980] 2.
+ 35. [0.9923] The presence of the object headers ssECustomerKeyMD5 and
+ 36. [0.9896] SSECustomerA1gorithm from the API/CLI response should confirm that the object
+ 37. [0.9907] is encrypted using the key.

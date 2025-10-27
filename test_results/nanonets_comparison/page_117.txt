@@ -1,0 +1,93 @@
+OCR Results for: page_117.png
+Timestamp: 2025-10-27T19:19:33.324819
+======================================================================
+
+EXTRACTED TEXT:
+----------------------------------------------------------------------
+Default notification channels are configured by using presets.
+References:
+1IBM Cloud Activity Tracker with LogDNA: Adoption guidelines for regulated and
+highly available workloads: https://cloud.ibm.com/docs/Activity-Tracker-with-
+LogDNA?topic=logdnaat-adoption
+2.
+IBM Cloud Activity Tracker with LogDNA service plans:
+https://cloud.ibm.com/docs/Activity-Tracker-with-LogDNA?topic=logdnaat-
+service plan
+CIS Controls:
+Controls
+Control
+IG 1
+IG 2
+IG 3
+Version
+8.11 Conduct Audit Log Reviews
+v8
+Conduct reviews of audit logs to detect anomalies or abnormal events that could
+indicate a potential threat. Conduct reviews on a weekly, or more frequent, basis.
+13.1 Centralize Security Event Alerting
+Centralize security event alerting across enterprise assets for log correlation
+v8
+and analysis. Best practice implementation requires the use of a SlEM, which
+includes vendor-defined event correlation alerts. A log analytics platform configured
+with security-relevant correlation alerts also satisfies this Safeguard.
+13.11 Tune Security Event Alerting Thresholds
+v8
+Tune security event alerting thresholds monthly, or more frequently.
+6.6 Deploy SIEM or Log Analytic tool
+v7
+Deploy Security Information and Event Management (SIEM) or log analytic tool
+for log correlation and analysis.
+6.7 Regularly Review Logs
+v7
+On a regular basis, review logs to identify anomalies or abnormal events.
+6.8 Regularly Tune SIEM
+v7
+On a regular basis, tune your SlEM system to better identify actionable events
+and decrease event noise.
+Page 116
+
+======================================================================
+DETAILED RESULTS WITH CONFIDENCE:
+======================================================================
+
+  1. [0.9852] Default notification channels are configured by using presets.
+  2. [0.9999] References:
+  3. [0.9693] 1IBM Cloud Activity Tracker with LogDNA: Adoption guidelines for regulated and
+  4. [0.9952] highly available workloads: https://cloud.ibm.com/docs/Activity-Tracker-with-
+  5. [0.9988] LogDNA?topic=logdnaat-adoption
+  6. [0.9979] 2.
+  7. [0.9931] IBM Cloud Activity Tracker with LogDNA service plans:
+  8. [0.9775] https://cloud.ibm.com/docs/Activity-Tracker-with-LogDNA?topic=logdnaat-
+  9. [0.9942] service plan
+ 10. [0.9453] CIS Controls:
+ 11. [0.9999] Controls
+ 12. [0.9999] Control
+ 13. [0.8843] IG 1
+ 14. [0.9564] IG 2
+ 15. [0.9886] IG 3
+ 16. [0.9998] Version
+ 17. [0.9690] 8.11 Conduct Audit Log Reviews
+ 18. [0.9987] v8
+ 19. [0.9935] Conduct reviews of audit logs to detect anomalies or abnormal events that could
+ 20. [0.9930] indicate a potential threat. Conduct reviews on a weekly, or more frequent, basis.
+ 21. [0.9915] 13.1 Centralize Security Event Alerting
+ 22. [0.9950] Centralize security event alerting across enterprise assets for log correlation
+ 23. [0.9988] v8
+ 24. [0.9854] and analysis. Best practice implementation requires the use of a SlEM, which
+ 25. [0.9920] includes vendor-defined event correlation alerts. A log analytics platform configured
+ 26. [0.9978] with security-relevant correlation alerts also satisfies this Safeguard.
+ 27. [0.9814] 13.11 Tune Security Event Alerting Thresholds
+ 28. [0.9995] v8
+ 29. [0.9915] Tune security event alerting thresholds monthly, or more frequently.
+ 30. [0.9915] 6.6 Deploy SIEM or Log Analytic tool
+ 31. [0.9814] v7
+ 32. [0.9763] Deploy Security Information and Event Management (SIEM) or log analytic tool
+ 33. [0.9998] for log correlation and analysis.
+ 34. [0.9991] 6.7 Regularly Review Logs
+ 35. [0.9849] v7
+ 36. [0.9892] On a regular basis, review logs to identify anomalies or abnormal events.
+ 37. [0.9793] 6.8 Regularly Tune SIEM
+ 38. [0.9722] v7
+ 39. [0.9814] On a regular basis, tune your SlEM system to better identify actionable events
+ 40. [0.9996] and decrease event noise.
+ 41. [0.9999] Page 116

@@ -1,0 +1,125 @@
+OCR Results for: page_143.png
+Timestamp: 2025-10-27T19:21:38.554526
+======================================================================
+
+EXTRACTED TEXT:
+----------------------------------------------------------------------
+5.2 Ensure
+e IBM
+Cloudant encryption is enabled with customer
+1
+managed
+d keys
+(Manual)
+Profile Applicability:
+Level 1
+Description:
+IBM Cloudant encrypts all client data at-rest by default. For customers using a
+Dedicated Hardware plan instance, it is optional to use the service's integration with IBM
+Key Protect for customers to bring their own encryption key at provision time for the
+instance.
+To provision a Cloudant Dedicated Hardware plan instance using Bring-Your-Own-Key
+with Key Protect, first ensure you are logged into your IBM Cloud account at
+https://cloud.ibm.com/. Note a paid account is required to provision a Cloudant
+Dedicated Hardware plan instance.
+Before provisioning the Dedicated Hardware plan instance with BYOK with Key Protect,
+follow the authorization instructions between Key Protect and Cloudant:
+1.
+Open your IBM Cloud dashboard.
+2.
+From the menu bar, click Manage > Access (IAM).
+3.
+In the side navigation, click Authorizations.
+4.
+Click Create.
+5.
+In the Source service menu, select the cloudant in Account.
+6.
+In the Source service instance menu, select Al1 instances.
+7.
+In the Target service menu, select Key Protect in Account, and leave Instance ID
+of string equals All instances.
+8.
+Enable the Reader role by checking the checkbox.
+9.
+Click Authorize.
+Ensure the necessary encryption key(s) in Key Protect have been created. (See IBM
+Key Protect documentation for those steps.)
+Next provision a Cloudant Dedicated Hardware plan instance and choose the BYOK
+with Key Protect option during the provisioning process:
+Via UI:
+1.
+From the IBM Cloud Dashboard, click on Create resource.
+2.
+Type cloudant in the search bar and click the Cloudant tile to open it.
+3.
+Select cloudant offering.
+4.
+Click the Dedicated tab.
+5.
+Click Create Host.
+6.
+Select the IBM Cloud region.
+Page 142
+
+======================================================================
+DETAILED RESULTS WITH CONFIDENCE:
+======================================================================
+
+  1. [0.9999] 5.2 Ensure
+  2. [0.9197] e IBM
+  3. [0.9867] Cloudant encryption is enabled with customer
+  4. [0.9491] 1
+  5. [0.9999] managed
+  6. [0.9521] d keys
+  7. [0.9545] (Manual)
+  8. [0.9793] Profile Applicability:
+  9. [0.9403] Level 1
+ 10. [0.9999] Description:
+ 11. [0.9927] IBM Cloudant encrypts all client data at-rest by default. For customers using a
+ 12. [0.9861] Dedicated Hardware plan instance, it is optional to use the service's integration with IBM
+ 13. [0.9903] Key Protect for customers to bring their own encryption key at provision time for the
+ 14. [0.9999] instance.
+ 15. [0.9692] To provision a Cloudant Dedicated Hardware plan instance using Bring-Your-Own-Key
+ 16. [0.9849] with Key Protect, first ensure you are logged into your IBM Cloud account at
+ 17. [0.9791] https://cloud.ibm.com/. Note a paid account is required to provision a Cloudant
+ 18. [0.9971] Dedicated Hardware plan instance.
+ 19. [0.9908] Before provisioning the Dedicated Hardware plan instance with BYOK with Key Protect,
+ 20. [0.9898] follow the authorization instructions between Key Protect and Cloudant:
+ 21. [0.9956] 1.
+ 22. [0.9877] Open your IBM Cloud dashboard.
+ 23. [0.9983] 2.
+ 24. [0.9774] From the menu bar, click Manage > Access (IAM).
+ 25. [0.9995] 3.
+ 26. [0.9928] In the side navigation, click Authorizations.
+ 27. [0.9997] 4.
+ 28. [0.9995] Click Create.
+ 29. [0.9997] 5.
+ 30. [0.9970] In the Source service menu, select the cloudant in Account.
+ 31. [0.9998] 6.
+ 32. [0.9888] In the Source service instance menu, select Al1 instances.
+ 33. [0.9997] 7.
+ 34. [0.9906] In the Target service menu, select Key Protect in Account, and leave Instance ID
+ 35. [0.9932] of string equals All instances.
+ 36. [0.9997] 8.
+ 37. [0.9898] Enable the Reader role by checking the checkbox.
+ 38. [0.9991] 9.
+ 39. [0.9989] Click Authorize.
+ 40. [0.9944] Ensure the necessary encryption key(s) in Key Protect have been created. (See IBM
+ 41. [0.9874] Key Protect documentation for those steps.)
+ 42. [0.9928] Next provision a Cloudant Dedicated Hardware plan instance and choose the BYOK
+ 43. [0.9994] with Key Protect option during the provisioning process:
+ 44. [0.9772] Via UI:
+ 45. [0.9998] 1.
+ 46. [0.9963] From the IBM Cloud Dashboard, click on Create resource.
+ 47. [0.9989] 2.
+ 48. [0.9811] Type cloudant in the search bar and click the Cloudant tile to open it.
+ 49. [0.9995] 3.
+ 50. [0.9962] Select cloudant offering.
+ 51. [0.9996] 4.
+ 52. [0.9906] Click the Dedicated tab.
+ 53. [0.9998] 5.
+ 54. [0.9981] Click Create Host.
+ 55. [0.9998] 6.
+ 56. [0.9895] Select the IBM Cloud region.
+ 57. [0.9992] Page 142

@@ -1,0 +1,5 @@
+# Additional dependencies for PDF processing and benchmark comparison
+PyMuPDF>=1.23.0
+psutil>=5.9.0
+Pillow>=10.0.0
+

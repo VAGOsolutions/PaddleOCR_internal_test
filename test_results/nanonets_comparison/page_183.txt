@@ -1,0 +1,95 @@
+OCR Results for: page_183.png
+Timestamp: 2025-10-27T19:22:29.442635
+======================================================================
+
+EXTRACTED TEXT:
+----------------------------------------------------------------------
+Audit:
+Install the etcd CLI (etcdct1) version 3 or later.
+export
+ETCDCTL
+ API=3
+3. Run the ibmcloud ks cluster config command and include the --admin option,
+which downloads the etcd certificates and keys for your cluster, and the --output
+zip > <cluster_name_or_ID>.zip option, which saves your cluster configuration
+files to a compressed folder.
+ibmcloud ks cluster config -c <cluster_name_or_ID> --admin --output zip
+<cluster name_or_ID>.zip
+4. Decompress the compressed folder.
+5. Get the server field for your cluster. In the output, copy only the master URL,
+without https : / / and the node port.
+cat
+./<cluster name or 
+ID>/kube-config.yaml
+/
+grep
+server
+6. Get the etcdPort for your cluster.
+ibmcloud ks cluster get -c <cluster
+name
+ID>
+--output json I grep etcdPort
+r
+7. Get the name of a secret in your cluster.
+kubectl get secrets [-n <namespace>]
+8. Confirm that the Kubernetes secrets for the cluster are encrypted. Replace the
+secret_name, master_url, and etcd_portfields with the values that you previously
+retrieved, and replace <cluster_name_or_ID> with the name of the cluster in your
+compressed folder file path.
+etcdctl get /registry/secrets/<secret_namespace>/<secret_name> --endpoints
+https://<master_url>:<etcd_port> --key="./<cluster_name_or_ID>/admin-key.pem"
+--cert="./<cluster_name_or_ID>/admin.pem"
+cacert="./<cluster_name_or_ID>/ca.pem"
+9. Ensure the output is unreadable and scrambled, indicating that it is encrypted.
+Remediation:
+From Console:
+1. Log in to your IBM Cloud account.
+2.To view the list of services that are available on IBM Cloud, click Catalog.
+Page 182
+
+======================================================================
+DETAILED RESULTS WITH CONFIDENCE:
+======================================================================
+
+  1. [0.9997] Audit:
+  2. [0.9707] Install the etcd CLI (etcdct1) version 3 or later.
+  3. [0.9999] export
+  4. [0.9998] ETCDCTL
+  5. [0.9473]  API=3
+  6. [0.9875] 3. Run the ibmcloud ks cluster config command and include the --admin option,
+  7. [0.9864] which downloads the etcd certificates and keys for your cluster, and the --output
+  8. [0.9849] zip > <cluster_name_or_ID>.zip option, which saves your cluster configuration
+  9. [0.9991] files to a compressed folder.
+ 10. [0.9930] ibmcloud ks cluster config -c <cluster_name_or_ID> --admin --output zip
+ 11. [0.9993] <cluster name_or_ID>.zip
+ 12. [0.9790] 4. Decompress the compressed folder.
+ 13. [0.9908] 5. Get the server field for your cluster. In the output, copy only the master URL,
+ 14. [0.9925] without https : / / and the node port.
+ 15. [1.0000] cat
+ 16. [0.9499] ./<cluster name or 
+ 17. [0.9990] ID>/kube-config.yaml
+ 18. [0.3138] /
+ 19. [1.0000] grep
+ 20. [0.9999] server
+ 21. [0.9826] 6. Get the etcdPort for your cluster.
+ 22. [0.9996] ibmcloud ks cluster get -c <cluster
+ 23. [1.0000] name
+ 24. [0.9989] ID>
+ 25. [0.9898] --output json I grep etcdPort
+ 26. [1.0000] r
+ 27. [0.9772] 7. Get the name of a secret in your cluster.
+ 28. [0.9971] kubectl get secrets [-n <namespace>]
+ 29. [0.9894] 8. Confirm that the Kubernetes secrets for the cluster are encrypted. Replace the
+ 30. [0.9924] secret_name, master_url, and etcd_portfields with the values that you previously
+ 31. [0.9741] retrieved, and replace <cluster_name_or_ID> with the name of the cluster in your
+ 32. [0.9847] compressed folder file path.
+ 33. [0.9884] etcdctl get /registry/secrets/<secret_namespace>/<secret_name> --endpoints
+ 34. [0.9947] https://<master_url>:<etcd_port> --key="./<cluster_name_or_ID>/admin-key.pem"
+ 35. [0.9842] --cert="./<cluster_name_or_ID>/admin.pem"
+ 36. [0.9925] cacert="./<cluster_name_or_ID>/ca.pem"
+ 37. [0.9906] 9. Ensure the output is unreadable and scrambled, indicating that it is encrypted.
+ 38. [0.9999] Remediation:
+ 39. [0.9981] From Console:
+ 40. [0.9729] 1. Log in to your IBM Cloud account.
+ 41. [0.9764] 2.To view the list of services that are available on IBM Cloud, click Catalog.
+ 42. [0.9984] Page 182

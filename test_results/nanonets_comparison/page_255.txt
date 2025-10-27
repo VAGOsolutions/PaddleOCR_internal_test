@@ -1,0 +1,47 @@
+OCR Results for: page_255.png
+Timestamp: 2025-10-27T19:25:06.185630
+======================================================================
+
+EXTRACTED TEXT:
+----------------------------------------------------------------------
+Appendix:
+Change
+History
+Date
+Version
+Changes for this version
+Nov 18, 2022
+1.1.0
+UPDATE - Ensure API keys unused for 180 days are
+detected and optionally disabled - The 3 links of IBM Cloud
+docs have expired (Ticket 13413)
+Nov 18, 2022
+UPDATE - Multiple recommendations - Updated Critical
+1.1.0
+Controls mapping (Ticket 17043)
+Nov 12, 2020
+1.0.0
+Document Created
+
+======================================================================
+DETAILED RESULTS WITH CONFIDENCE:
+======================================================================
+
+  1. [0.9998] Appendix:
+  2. [0.9995] Change
+  3. [0.9967] History
+  4. [0.9997] Date
+  5. [1.0000] Version
+  6. [0.9981] Changes for this version
+  7. [0.9719] Nov 18, 2022
+  8. [1.0000] 1.1.0
+  9. [0.9897] UPDATE - Ensure API keys unused for 180 days are
+ 10. [0.9980] detected and optionally disabled - The 3 links of IBM Cloud
+ 11. [0.9787] docs have expired (Ticket 13413)
+ 12. [0.9887] Nov 18, 2022
+ 13. [0.9692] UPDATE - Multiple recommendations - Updated Critical
+ 14. [1.0000] 1.1.0
+ 15. [0.9997] Controls mapping (Ticket 17043)
+ 16. [0.9998] Nov 12, 2020
+ 17. [0.9969] 1.0.0
+ 18. [0.9976] Document Created

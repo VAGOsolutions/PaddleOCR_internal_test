@@ -1,0 +1,101 @@
+OCR Results for: page_138.png
+Timestamp: 2025-10-27T19:20:42.865912
+======================================================================
+
+EXTRACTED TEXT:
+----------------------------------------------------------------------
+
+"deployment": {
+"id": "crn:vl:staging:public:databases-for-enterprisedb:us-
+df0dd7e706c8::",
+"name": "crn:vl:staging:public:databases-for-enterprisedb:us-
+south:a/b9552134280015ebfde430a819fa4bb3:5589ecbf-de5f-4eac-9917-
+df0dd7e706c8::",
+"type": "enterprisedb",
+"platform_options":{
+"disk_encryption_key_crn": "",
+"backup_encryption_key_crn": ""
+"version": "12",
+"admin usernames":
+
+"database": "admin"
+"enable private_endpoints": false,
+"enable public_endpoints": true,
+"disablements": []
+}
+
+5. The lack of text in "disk_encryption_key_crn": and"backup_encryption_key_crn":
+means that your deployment is encrypted at rest with IBM managed encryption
+keys. If there is text after "crn" then that will be the unique identifier of the
+encryption key that is customer-managed for encryption at rest or for backups.
+Remediation:
+No remediation procedure. Impossible for end-user to impact this control in a negative
+way.
+Default Value:
+By default all objects stored on IBM Cloud Databases are encrypted at-rest.
+CIS Controls:
+Controls
+IG 1
+IG 2
+IG 3
+Control
+Version
+3.11 Encrypt Sensitive Data at Rest
+Encrypt sensitive data at rest on servers, applications, and databases containing
+sensitive data. Storage-layer encryption, also known as server-side encryption,
+v8
+meets the minimum requirement of this Safeguard. Additional encryption methods
+may include application-layer encryption, also known as client-side encryption,
+where access to the data storage device(s) does not permit access to the plain-text
+data.
+Page 137
+
+======================================================================
+DETAILED RESULTS WITH CONFIDENCE:
+======================================================================
+
+  1. [0.0000] 
+  2. [0.9775] "deployment": {
+  3. [0.9961] "id": "crn:vl:staging:public:databases-for-enterprisedb:us-
+  4. [0.9892] df0dd7e706c8::",
+  5. [0.9916] "name": "crn:vl:staging:public:databases-for-enterprisedb:us-
+  6. [0.9997] south:a/b9552134280015ebfde430a819fa4bb3:5589ecbf-de5f-4eac-9917-
+  7. [0.9956] df0dd7e706c8::",
+  8. [0.9883] "type": "enterprisedb",
+  9. [0.9970] "platform_options":{
+ 10. [0.9849] "disk_encryption_key_crn": "",
+ 11. [0.9853] "backup_encryption_key_crn": ""
+ 12. [0.9534] "version": "12",
+ 13. [0.9984] "admin usernames":
+ 14. [0.0000] 
+ 15. [0.9733] "database": "admin"
+ 16. [0.9963] "enable private_endpoints": false,
+ 17. [0.9967] "enable public_endpoints": true,
+ 18. [0.9951] "disablements": []
+ 19. [0.6370] }
+ 20. [0.0000] 
+ 21. [0.9903] 5. The lack of text in "disk_encryption_key_crn": and"backup_encryption_key_crn":
+ 22. [0.9922] means that your deployment is encrypted at rest with IBM managed encryption
+ 23. [0.9862] keys. If there is text after "crn" then that will be the unique identifier of the
+ 24. [0.9856] encryption key that is customer-managed for encryption at rest or for backups.
+ 25. [0.9999] Remediation:
+ 26. [0.9984] No remediation procedure. Impossible for end-user to impact this control in a negative
+ 27. [0.9999] way.
+ 28. [0.9851] Default Value:
+ 29. [0.9912] By default all objects stored on IBM Cloud Databases are encrypted at-rest.
+ 30. [0.9587] CIS Controls:
+ 31. [0.9999] Controls
+ 32. [0.9968] IG 1
+ 33. [0.9419] IG 2
+ 34. [0.8904] IG 3
+ 35. [0.9999] Control
+ 36. [0.9999] Version
+ 37. [0.9966] 3.11 Encrypt Sensitive Data at Rest
+ 38. [0.9956] Encrypt sensitive data at rest on servers, applications, and databases containing
+ 39. [0.9884] sensitive data. Storage-layer encryption, also known as server-side encryption,
+ 40. [0.9995] v8
+ 41. [0.9892] meets the minimum requirement of this Safeguard. Additional encryption methods
+ 42. [0.9921] may include application-layer encryption, also known as client-side encryption,
+ 43. [0.9925] where access to the data storage device(s) does not permit access to the plain-text
+ 44. [0.9999] data.
+ 45. [0.9998] Page 137

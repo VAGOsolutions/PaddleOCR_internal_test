@@ -1,0 +1,97 @@
+OCR Results for: page_052.png
+Timestamp: 2025-10-27T19:17:48.438202
+======================================================================
+
+EXTRACTED TEXT:
+----------------------------------------------------------------------
+Remediation:
+You must create an instance of the IBM Cloud Activity Tracker with LogDNA service in
+the Frankfurt region to start tracking IAM events. Use a minimum of a 7-day event
+search.
+Console:
+1.
+Log in to IBM Cloud at https://cloud.ibm.com.
+2.
+Go to the Menu icon. Then, select Observability to access the Observability
+dashboard.
+3.
+Select Activity Tracker from the page navigation menu
+4.
+Click Create instance to create an instance of IBM Cloud Activity Tracker with
+LogDNA.
+5.
+In the Select a region drop down, choose Frankfurt
+6.
+Select a pricing plan, service name, resource group, and provide optional tags.
+Choose a plan that offers a minimum of 7-day event search.
+7.
+Click Create.
+Default Value:
+By default, audit logging with Activity Tracker with LogDNA is not enabled.
+References:
+1.
+https://cloud.ibm.com/docs/account
+CIS Controls:
+Controls
+IG 1
+IG 2
+IG 3
+Control
+Version
+8.2 Collect Audit Logs
+v8
+Collect audit logs. Ensure that logging, per the enterprise's audit log
+management process, has been enabled across enterprise assets.
+6.3 Enable Detailed Logging
+v7
+Enable system logging to include detailed information such as an event
+source, date, user, timestamp, source addresses, destination addresses, and
+other useful elements.
+
+======================================================================
+DETAILED RESULTS WITH CONFIDENCE:
+======================================================================
+
+  1. [0.9999] Remediation:
+  2. [0.9876] You must create an instance of the IBM Cloud Activity Tracker with LogDNA service in
+  3. [0.9846] the Frankfurt region to start tracking IAM events. Use a minimum of a 7-day event
+  4. [0.9999] search.
+  5. [0.9998] Console:
+  6. [0.9997] 1.
+  7. [0.9801] Log in to IBM Cloud at https://cloud.ibm.com.
+  8. [0.9982] 2.
+  9. [0.9935] Go to the Menu icon. Then, select Observability to access the Observability
+ 10. [0.9999] dashboard.
+ 11. [0.9997] 3.
+ 12. [0.9868] Select Activity Tracker from the page navigation menu
+ 13. [0.9996] 4.
+ 14. [0.9819] Click Create instance to create an instance of IBM Cloud Activity Tracker with
+ 15. [0.9998] LogDNA.
+ 16. [0.9997] 5.
+ 17. [0.9877] In the Select a region drop down, choose Frankfurt
+ 18. [0.9998] 6.
+ 19. [0.9984] Select a pricing plan, service name, resource group, and provide optional tags.
+ 20. [0.9987] Choose a plan that offers a minimum of 7-day event search.
+ 21. [0.9996] 7.
+ 22. [0.9998] Click Create.
+ 23. [0.9926] Default Value:
+ 24. [0.9896] By default, audit logging with Activity Tracker with LogDNA is not enabled.
+ 25. [0.9999] References:
+ 26. [0.9993] 1.
+ 27. [0.9999] https://cloud.ibm.com/docs/account
+ 28. [0.9982] CIS Controls:
+ 29. [0.9999] Controls
+ 30. [0.9692] IG 1
+ 31. [0.9641] IG 2
+ 32. [0.9823] IG 3
+ 33. [0.9999] Control
+ 34. [0.9996] Version
+ 35. [0.9977] 8.2 Collect Audit Logs
+ 36. [0.9994] v8
+ 37. [0.9690] Collect audit logs. Ensure that logging, per the enterprise's audit log
+ 38. [0.9916] management process, has been enabled across enterprise assets.
+ 39. [0.9974] 6.3 Enable Detailed Logging
+ 40. [0.9755] v7
+ 41. [0.9974] Enable system logging to include detailed information such as an event
+ 42. [0.9864] source, date, user, timestamp, source addresses, destination addresses, and
+ 43. [0.9999] other useful elements.
