@@ -190,6 +190,37 @@ This processes all documents in the `test_documents/` folder and generates:
 
 Processing all 9 documents takes about 5-6 minutes on a modern CPU.
 
+### Convert Pages to Markdown
+
+Process multiple document page images and convert them to structured Markdown files using PP-StructureV3:
+
+```bash
+pip install --upgrade paddlepaddle
+
+python convert_pages_to_markdown.py test_documents/nanonets_comparison
+```
+
+This powerful script:
+- **Preserves document structure** - Maintains headings, paragraphs, tables, and lists
+- **Handles complex layouts** - Multi-column documents, formulas, charts
+- **Extracts embedded images** - Saves images separately and references them in Markdown
+- **Batch processing** - Converts entire directories of page images automatically
+
+**Output:** Individual markdown files (`page_001.md`, `page_002.md`, etc.) saved to `output/markdown_pages/`
+
+**Custom output directory:**
+```bash
+python convert_pages_to_markdown.py test_documents/nanonets_comparison -o my_output_folder
+```
+
+**Supported formats:** PNG, JPG, JPEG, BMP, TIFF
+
+This is perfect for:
+- Converting scanned document pages to editable Markdown
+- Preparing documents for RAG (Retrieval-Augmented Generation) systems
+- Creating searchable text versions of image-based PDFs
+- Batch processing document archives
+
 ## Project Structure
 
 ```
@@ -206,10 +237,11 @@ PaddleOCR_internal_test/
 │   ├── *.txt               # Plain text
 │   └── *_annotated.jpg     # Visualizations
 │
-├── test_basic_ocr.py       # Single document testing
-├── batch_test_all.py       # Batch processing
-├── test_multilingual.py    # Multi-language support
-└── README.md               # This file
+├── test_basic_ocr.py              # Single document testing
+├── batch_test_all.py              # Batch processing
+├── test_multilingual.py           # Multi-language support
+├── convert_pages_to_markdown.py   # Page to Markdown converter
+└── README.md                      # This file
 ```
 
 ## Real-World Performance
